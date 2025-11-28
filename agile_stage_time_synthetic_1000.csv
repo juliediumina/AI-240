@@ -1,0 +1,1001 @@
+task_id,issue_type,story_points,priority,team,current_stage,previous_stages_count,num_dependencies,entered_stage_date,next_stage_date,days_in_stage
+T-0001,Feature,2,Medium,Team B,In Progress,2,1,2024-04-25,2024-05-03,7.8
+T-0002,Spike,3,Medium,Team C,In Review,3,2,2024-02-20,2024-02-24,3.88
+T-0003,Task,8,High,Team A,In Review,2,2,2024-06-29,2024-07-01,2.48
+T-0004,Bug,5,Medium,Team B,Backlog,3,4,2024-01-04,2024-01-11,6.66
+T-0005,Feature,8,Medium,Team B,Backlog,3,4,2024-03-19,2024-03-31,11.6
+T-0006,Feature,5,High,Team C,In Progress,2,1,2024-01-17,2024-01-24,6.59
+T-0007,Feature,5,Medium,Team C,In Progress,1,5,2024-04-17,2024-04-26,8.58
+T-0008,Task,8,High,Team A,In Progress,3,0,2024-03-14,2024-03-19,5.13
+T-0009,Bug,2,Low,Team B,In Progress,2,3,2024-06-23,2024-07-01,7.93
+T-0010,Task,3,Medium,Team A,Backlog,0,0,2024-01-23,2024-01-26,2.77
+T-0011,Feature,2,Low,Team B,Backlog,2,1,2024-01-18,2024-01-23,5.49
+T-0012,Spike,13,Low,Team A,In Progress,0,1,2024-05-08,2024-05-24,15.99
+T-0013,Task,8,High,Team A,In Progress,3,0,2024-02-04,2024-02-11,6.67
+T-0014,Feature,1,Low,Team A,Backlog,2,3,2024-03-04,2024-03-12,7.72
+T-0015,Feature,5,Medium,Team B,In Progress,2,0,2024-02-28,2024-03-07,7.55
+T-0016,Feature,8,Medium,Team A,In Progress,0,4,2024-01-01,2024-01-11,10.14
+T-0017,Feature,2,Medium,Team B,In Review,2,2,2024-05-10,2024-05-13,2.69
+T-0018,Bug,3,High,Team B,In Review,2,5,2024-03-07,2024-03-10,2.72
+T-0019,Bug,8,Low,Team A,In Progress,3,4,2024-02-06,2024-02-18,12.22
+T-0020,Feature,1,Medium,Team C,Backlog,2,2,2024-01-29,2024-02-02,4.02
+T-0021,Bug,5,Critical,Team A,In Progress,1,5,2024-03-29,2024-04-03,4.64
+T-0022,Feature,2,Medium,Team B,Backlog,0,5,2024-06-09,2024-06-16,6.93
+T-0023,Feature,8,High,Team B,In Progress,2,5,2024-04-09,2024-04-21,11.51
+T-0024,Feature,13,Low,Team A,In Review,0,1,2024-05-01,2024-05-07,6.42
+T-0025,Bug,8,Medium,Team A,In Progress,0,5,2024-03-30,2024-04-08,8.72
+T-0026,Task,3,Medium,Team A,In Review,0,3,2024-05-11,2024-05-15,3.78
+T-0027,Feature,8,High,Team C,In Progress,2,0,2024-01-14,2024-01-21,7.45
+T-0028,Bug,8,Critical,Team B,Backlog,2,3,2024-06-09,2024-06-13,3.93
+T-0029,Bug,2,Medium,Team B,In Review,0,0,2024-05-29,2024-06-01,3.05
+T-0030,Feature,8,Medium,Team B,In Progress,1,4,2024-06-24,2024-07-07,12.51
+T-0031,Bug,1,Low,Team A,In Progress,0,4,2024-05-10,2024-05-16,5.74
+T-0032,Feature,3,Medium,Team B,In Progress,1,0,2024-03-25,2024-04-02,7.55
+T-0033,Feature,2,Medium,Team C,Backlog,0,3,2024-05-30,2024-06-04,4.67
+T-0034,Spike,1,Critical,Team A,Testing,3,0,2024-01-21,2024-01-22,1.34
+T-0035,Spike,1,Medium,Team A,Backlog,0,5,2024-06-19,2024-06-24,5.11
+T-0036,Task,5,Medium,Team A,Testing,0,1,2024-01-26,2024-01-31,4.85
+T-0037,Feature,2,Low,Team B,Testing,2,4,2024-02-10,2024-02-18,7.85
+T-0038,Feature,5,Low,Team C,In Review,1,1,2024-05-01,2024-05-07,5.56
+T-0039,Bug,1,Medium,Team A,In Progress,3,5,2024-02-07,2024-02-14,7.16
+T-0040,Bug,2,Medium,Team B,In Progress,1,5,2024-03-28,2024-04-04,6.74
+T-0041,Feature,3,High,Team A,In Review,3,4,2024-01-11,2024-01-14,2.97
+T-0042,Bug,5,Medium,Team C,In Progress,0,4,2024-01-29,2024-02-04,6.46
+T-0043,Feature,2,Medium,Team A,In Progress,2,5,2024-02-29,2024-03-08,7.68
+T-0044,Spike,5,Low,Team B,In Progress,2,2,2024-03-01,2024-03-14,13.02
+T-0045,Feature,8,High,Team B,In Progress,1,1,2024-05-26,2024-05-31,5.22
+T-0046,Bug,5,High,Team B,In Progress,2,1,2024-06-22,2024-06-29,7.25
+T-0047,Feature,2,Low,Team B,In Progress,1,2,2024-06-25,2024-07-04,9.45
+T-0048,Bug,1,High,Team A,In Progress,1,3,2024-01-22,2024-01-26,3.88
+T-0049,Bug,8,Medium,Team A,In Review,3,1,2024-03-18,2024-03-22,4.25
+T-0050,Feature,1,Low,Team A,Backlog,1,0,2024-04-22,2024-04-27,4.89
+T-0051,Spike,8,Medium,Team A,Testing,3,5,2024-05-02,2024-05-12,9.72
+T-0052,Task,3,Medium,Team B,In Progress,2,5,2024-05-21,2024-05-29,8.08
+T-0053,Spike,8,Low,Team A,In Review,1,2,2024-02-13,2024-02-18,5.25
+T-0054,Task,5,High,Team A,In Progress,1,1,2024-05-23,2024-05-27,4.31
+T-0055,Bug,13,High,Team B,In Review,0,3,2024-04-06,2024-04-10,3.72
+T-0056,Spike,3,Medium,Team C,Backlog,1,1,2024-03-17,2024-03-23,5.52
+T-0057,Feature,5,Medium,Team B,In Review,1,5,2024-05-19,2024-05-25,5.96
+T-0058,Feature,3,Medium,Team A,Backlog,0,4,2024-02-24,2024-02-29,4.79
+T-0059,Feature,3,Medium,Team A,In Review,0,0,2024-02-20,2024-02-21,0.73
+T-0060,Feature,5,Medium,Team C,Testing,2,2,2024-04-11,2024-04-17,5.9
+T-0061,Feature,8,Low,Team A,In Progress,1,4,2024-06-15,2024-06-29,13.5
+T-0062,Feature,13,Medium,Team A,Backlog,2,3,2024-06-09,2024-06-19,9.75
+T-0063,Task,5,High,Team B,In Review,2,4,2024-06-09,2024-06-14,4.65
+T-0064,Feature,3,Medium,Team B,In Progress,0,4,2024-01-29,2024-02-07,8.53
+T-0065,Feature,3,Low,Team B,In Review,3,3,2024-03-09,2024-03-14,5.17
+T-0066,Bug,5,High,Team A,Backlog,2,4,2024-06-07,2024-06-11,3.6
+T-0067,Feature,2,Medium,Team A,Backlog,3,2,2024-03-20,2024-03-25,4.98
+T-0068,Task,1,Medium,Team C,Testing,1,5,2024-01-31,2024-02-04,3.72
+T-0069,Feature,3,Low,Team A,In Progress,0,1,2024-04-21,2024-04-29,7.9
+T-0070,Spike,2,Medium,Team B,In Review,1,4,2024-02-15,2024-02-20,5.27
+T-0071,Task,2,High,Team B,In Progress,1,2,2024-04-06,2024-04-10,4.18
+T-0072,Feature,2,Medium,Team B,In Progress,0,1,2024-02-21,2024-02-28,6.57
+T-0073,Feature,1,Medium,Team A,In Progress,1,1,2024-05-17,2024-05-23,6.17
+T-0074,Task,1,High,Team A,In Progress,0,4,2024-03-14,2024-03-18,4.44
+T-0075,Task,13,High,Team B,In Progress,3,2,2024-02-10,2024-02-22,11.67
+T-0076,Task,3,High,Team C,In Progress,1,5,2024-03-17,2024-03-22,5.37
+T-0077,Task,3,Medium,Team C,In Progress,0,4,2024-05-10,2024-05-16,6.46
+T-0078,Feature,5,Medium,Team A,In Progress,2,3,2024-04-23,2024-05-02,9.14
+T-0079,Feature,2,Critical,Team A,In Review,1,1,2024-02-21,2024-02-22,1.32
+T-0080,Feature,8,High,Team C,Backlog,3,4,2024-06-10,2024-06-18,8.24
+T-0081,Task,5,Low,Team B,In Progress,0,1,2024-06-25,2024-07-05,10.06
+T-0082,Bug,1,Low,Team C,Backlog,1,2,2024-06-04,2024-06-09,5.43
+T-0083,Feature,3,Medium,Team A,In Progress,1,0,2024-03-27,2024-04-03,6.86
+T-0084,Feature,8,High,Team B,In Review,1,4,2024-04-18,2024-04-23,5.16
+T-0085,Feature,8,Medium,Team B,Backlog,3,5,2024-05-20,2024-06-01,11.71
+T-0086,Feature,3,Medium,Team B,Backlog,0,4,2024-03-09,2024-03-15,6.47
+T-0087,Task,5,Low,Team B,Backlog,2,1,2024-04-29,2024-05-06,7.33
+T-0088,Bug,2,Medium,Team A,In Progress,2,2,2024-03-07,2024-03-12,5.43
+T-0089,Task,13,High,Team B,In Review,2,3,2024-03-01,2024-03-06,4.83
+T-0090,Bug,2,Medium,Team A,Backlog,0,5,2024-03-11,2024-03-14,2.69
+T-0091,Feature,8,High,Team B,In Review,2,2,2024-05-31,2024-06-04,3.89
+T-0092,Task,5,Critical,Team C,In Progress,3,4,2024-05-30,2024-06-04,5.09
+T-0093,Task,5,Medium,Team A,In Progress,0,3,2024-01-30,2024-02-07,8.11
+T-0094,Bug,3,Medium,Team C,Testing,1,2,2024-05-25,2024-05-28,3.31
+T-0095,Task,2,Medium,Team A,In Progress,3,0,2024-04-05,2024-04-11,6.33
+T-0096,Bug,2,High,Team B,In Progress,1,5,2024-02-25,2024-03-01,4.67
+T-0097,Bug,2,Medium,Team C,Backlog,2,1,2024-02-22,2024-02-25,2.89
+T-0098,Bug,2,Medium,Team A,Backlog,3,2,2024-01-07,2024-01-12,5.41
+T-0099,Feature,5,High,Team A,In Progress,0,2,2024-04-06,2024-04-12,6.06
+T-0100,Feature,3,Medium,Team B,Backlog,3,0,2024-04-22,2024-04-28,5.53
+T-0101,Feature,1,High,Team A,In Progress,1,4,2024-05-04,2024-05-09,5.39
+T-0102,Bug,13,Medium,Team B,In Progress,0,5,2024-06-28,2024-07-10,11.89
+T-0103,Feature,8,Low,Team C,In Progress,3,5,2024-05-11,2024-05-26,14.92
+T-0104,Bug,8,Medium,Team B,Backlog,3,1,2024-06-10,2024-06-17,6.88
+T-0105,Spike,13,High,Team A,In Progress,3,2,2024-06-09,2024-06-22,12.56
+T-0106,Feature,2,Medium,Team B,In Progress,3,3,2024-04-30,2024-05-07,7.11
+T-0107,Bug,3,High,Team B,Testing,0,2,2024-02-07,2024-02-12,5.09
+T-0108,Task,5,High,Team A,Backlog,1,1,2024-05-01,2024-05-05,3.94
+T-0109,Feature,5,Medium,Team B,In Review,3,2,2024-01-26,2024-01-30,4.09
+T-0110,Feature,2,Critical,Team B,In Progress,0,0,2024-05-08,2024-05-11,2.61
+T-0111,Feature,8,Low,Team B,In Progress,1,2,2024-01-04,2024-01-18,14.39
+T-0112,Feature,2,Medium,Team A,In Progress,3,2,2024-02-08,2024-02-14,5.84
+T-0113,Spike,2,Low,Team B,Backlog,1,3,2024-02-23,2024-03-02,7.76
+T-0114,Task,3,High,Team A,Backlog,1,0,2024-06-09,2024-06-12,3.08
+T-0115,Bug,3,Medium,Team A,In Progress,0,0,2024-02-02,2024-02-08,5.59
+T-0116,Task,3,Low,Team C,In Progress,1,2,2024-01-20,2024-01-28,8.5
+T-0117,Task,1,Medium,Team B,Testing,0,5,2024-01-16,2024-01-21,4.61
+T-0118,Feature,8,Medium,Team A,In Progress,3,3,2024-05-28,2024-06-08,10.85
+T-0119,Task,2,Low,Team A,Backlog,1,2,2024-06-21,2024-06-25,4.33
+T-0120,Bug,1,High,Team A,In Review,1,2,2024-05-06,2024-05-06,0.5
+T-0121,Task,8,High,Team A,In Progress,2,1,2024-03-27,2024-04-02,5.8
+T-0122,Task,13,Medium,Team A,In Progress,3,1,2024-03-22,2024-04-03,12.22
+T-0123,Feature,8,Critical,Team A,In Progress,3,5,2024-03-02,2024-03-10,8.0
+T-0124,Feature,8,Medium,Team B,Testing,2,3,2024-01-31,2024-02-09,9.4
+T-0125,Feature,5,Critical,Team B,In Review,2,4,2024-02-11,2024-02-13,2.04
+T-0126,Bug,3,Medium,Team B,In Progress,0,1,2024-01-12,2024-01-17,5.19
+T-0127,Task,1,Medium,Team B,In Progress,0,4,2024-03-05,2024-03-11,5.79
+T-0128,Task,3,Low,Team A,Testing,1,0,2024-03-13,2024-03-18,5.19
+T-0129,Feature,3,High,Team C,In Progress,1,1,2024-05-10,2024-05-15,4.7
+T-0130,Bug,2,Medium,Team C,Backlog,1,1,2024-04-24,2024-04-27,2.66
+T-0131,Bug,5,Low,Team C,In Progress,1,3,2024-05-16,2024-05-25,8.75
+T-0132,Feature,3,Low,Team C,Backlog,0,5,2024-04-15,2024-04-22,7.34
+T-0133,Feature,1,Medium,Team C,In Progress,3,4,2024-06-27,2024-07-03,6.19
+T-0134,Feature,2,Medium,Team B,In Progress,1,1,2024-01-16,2024-01-23,7.07
+T-0135,Spike,5,High,Team A,In Progress,3,1,2024-03-18,2024-03-26,7.99
+T-0136,Feature,1,High,Team B,Backlog,1,3,2024-05-04,2024-05-09,5.39
+T-0137,Bug,8,Low,Team B,In Review,2,3,2024-05-10,2024-05-17,6.84
+T-0138,Task,3,High,Team B,In Progress,1,5,2024-05-31,2024-06-07,7.15
+T-0139,Feature,3,Low,Team B,In Progress,1,4,2024-05-20,2024-05-31,11.3
+T-0140,Spike,3,High,Team A,In Progress,1,0,2024-05-09,2024-05-15,6.07
+T-0141,Spike,8,High,Team A,In Progress,0,5,2024-04-21,2024-04-29,8.47
+T-0142,Feature,2,Medium,Team C,Backlog,2,0,2024-05-06,2024-05-11,4.87
+T-0143,Bug,5,High,Team B,Backlog,1,2,2024-01-21,2024-01-25,4.23
+T-0144,Feature,3,Medium,Team B,In Review,1,1,2024-05-26,2024-05-31,4.89
+T-0145,Feature,2,Medium,Team A,Testing,3,4,2024-03-29,2024-04-04,6.3
+T-0146,Feature,8,High,Team A,In Progress,2,5,2024-02-16,2024-02-25,9.35
+T-0147,Bug,5,Medium,Team C,Backlog,1,1,2024-05-29,2024-06-02,4.13
+T-0148,Bug,5,Medium,Team B,In Progress,3,4,2024-06-09,2024-06-19,9.56
+T-0149,Feature,8,Medium,Team C,In Review,3,4,2024-06-08,2024-06-14,5.92
+T-0150,Feature,8,High,Team B,In Review,0,4,2024-03-25,2024-03-29,4.34
+T-0151,Spike,5,Medium,Team B,Backlog,3,1,2024-06-15,2024-06-23,7.71
+T-0152,Feature,8,Low,Team A,Backlog,1,5,2024-05-07,2024-05-19,11.66
+T-0153,Feature,5,High,Team B,In Review,0,3,2024-03-12,2024-03-15,2.58
+T-0154,Bug,5,High,Team B,In Progress,0,1,2024-02-11,2024-02-17,5.9
+T-0155,Spike,5,Low,Team B,In Progress,1,4,2024-01-09,2024-01-24,14.88
+T-0156,Feature,5,Medium,Team B,Backlog,2,5,2024-01-25,2024-02-03,9.4
+T-0157,Bug,2,Low,Team C,In Progress,3,2,2024-01-02,2024-01-08,6.42
+T-0158,Task,8,Medium,Team A,In Review,0,0,2024-01-19,2024-01-23,3.6
+T-0159,Feature,8,Medium,Team C,Testing,2,4,2024-01-20,2024-01-28,8.11
+T-0160,Task,1,High,Team A,In Progress,1,2,2024-03-10,2024-03-15,4.8
+T-0161,Feature,8,Medium,Team B,In Progress,3,3,2024-01-17,2024-01-30,13.02
+T-0162,Bug,1,Medium,Team A,Backlog,3,4,2024-05-03,2024-05-06,3.38
+T-0163,Bug,2,Medium,Team A,In Progress,0,2,2024-03-29,2024-04-03,5.16
+T-0164,Bug,5,High,Team B,In Progress,3,4,2024-04-03,2024-04-12,8.92
+T-0165,Feature,2,Medium,Team A,In Progress,3,1,2024-03-24,2024-03-31,6.99
+T-0166,Task,8,Critical,Team B,In Progress,3,5,2024-05-10,2024-05-19,9.02
+T-0167,Feature,8,Medium,Team C,Backlog,3,2,2024-03-27,2024-04-04,8.23
+T-0168,Feature,3,Low,Team A,Backlog,1,5,2024-02-20,2024-02-29,9.0
+T-0169,Feature,1,Medium,Team C,In Progress,2,1,2024-03-22,2024-03-28,5.66
+T-0170,Bug,2,Medium,Team B,Backlog,1,1,2024-06-02,2024-06-07,4.6
+T-0171,Bug,5,Medium,Team B,Backlog,1,5,2024-01-08,2024-01-15,6.81
+T-0172,Feature,13,Low,Team A,Testing,0,2,2024-06-13,2024-06-24,11.25
+T-0173,Bug,5,Low,Team A,In Progress,3,5,2024-04-30,2024-05-11,11.49
+T-0174,Feature,2,High,Team A,In Progress,1,5,2024-06-03,2024-06-09,5.57
+T-0175,Bug,5,Medium,Team A,In Review,3,0,2024-06-21,2024-06-26,4.61
+T-0176,Feature,3,High,Team A,Testing,1,2,2024-01-04,2024-01-07,3.37
+T-0177,Bug,5,Medium,Team B,In Progress,1,0,2024-03-26,2024-04-02,7.17
+T-0178,Feature,1,Medium,Team C,In Review,0,4,2024-05-07,2024-05-11,4.05
+T-0179,Spike,5,Medium,Team C,In Progress,2,5,2024-04-19,2024-04-29,10.02
+T-0180,Feature,3,Medium,Team B,In Progress,2,4,2024-04-08,2024-04-16,8.37
+T-0181,Feature,13,Medium,Team A,In Progress,1,2,2024-02-06,2024-02-19,13.04
+T-0182,Feature,2,Medium,Team A,In Progress,0,5,2024-03-11,2024-03-18,7.29
+T-0183,Spike,5,Low,Team A,In Progress,3,4,2024-02-02,2024-02-16,14.43
+T-0184,Task,8,Medium,Team A,In Progress,3,3,2024-01-31,2024-02-10,9.93
+T-0185,Feature,1,Medium,Team B,Backlog,1,1,2024-05-04,2024-05-10,6.08
+T-0186,Bug,8,High,Team B,In Progress,2,5,2024-01-12,2024-01-19,7.16
+T-0187,Task,5,High,Team A,Backlog,0,1,2024-01-11,2024-01-15,4.15
+T-0188,Bug,1,High,Team A,In Progress,2,0,2024-03-28,2024-04-02,4.56
+T-0189,Bug,2,High,Team C,In Progress,3,4,2024-03-12,2024-03-17,4.92
+T-0190,Feature,5,Medium,Team C,In Review,2,0,2024-02-01,2024-02-05,3.69
+T-0191,Feature,1,Medium,Team A,In Review,3,5,2024-02-26,2024-02-29,3.41
+T-0192,Task,3,High,Team C,In Review,0,1,2024-06-14,2024-06-16,2.13
+T-0193,Spike,2,Medium,Team C,In Progress,0,1,2024-03-26,2024-03-31,4.52
+T-0194,Bug,5,Medium,Team A,In Review,1,4,2024-01-19,2024-01-22,3.05
+T-0195,Feature,1,Low,Team A,In Progress,1,5,2024-04-25,2024-05-03,8.29
+T-0196,Feature,8,Medium,Team B,Backlog,2,3,2024-01-14,2024-01-24,9.63
+T-0197,Task,13,Medium,Team C,Backlog,0,3,2024-02-02,2024-02-09,7.47
+T-0198,Task,13,High,Team C,In Progress,0,4,2024-01-10,2024-01-19,8.52
+T-0199,Task,5,Medium,Team A,In Progress,1,5,2024-03-20,2024-03-28,8.2
+T-0200,Task,1,Medium,Team A,In Progress,3,4,2024-03-04,2024-03-10,5.88
+T-0201,Bug,5,Critical,Team B,In Review,2,5,2024-03-08,2024-03-11,2.98
+T-0202,Feature,1,Low,Team B,Backlog,2,0,2024-04-01,2024-04-07,6.27
+T-0203,Feature,1,Medium,Team A,Backlog,1,4,2024-05-04,2024-05-10,5.54
+T-0204,Task,2,Low,Team C,Testing,0,5,2024-06-19,2024-06-26,6.52
+T-0205,Bug,3,High,Team B,Backlog,1,3,2024-03-20,2024-03-25,4.54
+T-0206,Feature,5,High,Team C,In Progress,1,5,2024-02-28,2024-03-06,6.85
+T-0207,Feature,5,Medium,Team C,In Progress,1,5,2024-06-28,2024-07-07,8.57
+T-0208,Bug,3,High,Team B,In Progress,1,4,2024-04-06,2024-04-11,5.09
+T-0209,Feature,2,Medium,Team B,Backlog,3,0,2024-01-19,2024-01-24,4.53
+T-0210,Feature,13,High,Team B,Backlog,3,0,2024-05-28,2024-06-05,8.19
+T-0211,Bug,3,High,Team A,Backlog,0,0,2024-01-22,2024-01-24,2.23
+T-0212,Bug,3,High,Team B,In Progress,1,0,2024-01-09,2024-01-15,5.7
+T-0213,Bug,2,Low,Team A,In Progress,3,2,2024-01-09,2024-01-16,7.33
+T-0214,Feature,5,Critical,Team B,Backlog,0,4,2024-01-27,2024-02-02,5.57
+T-0215,Task,5,High,Team A,In Progress,1,1,2024-01-17,2024-01-23,5.85
+T-0216,Feature,2,Medium,Team A,In Review,2,4,2024-06-20,2024-06-23,3.1
+T-0217,Feature,1,High,Team A,Backlog,3,2,2024-02-14,2024-02-18,3.76
+T-0218,Task,5,Medium,Team A,In Progress,0,0,2024-01-08,2024-01-13,4.66
+T-0219,Bug,5,High,Team B,In Progress,2,2,2024-05-25,2024-05-31,6.38
+T-0220,Task,2,Low,Team B,In Progress,1,3,2024-05-04,2024-05-13,8.57
+T-0221,Bug,13,High,Team B,In Progress,1,3,2024-05-02,2024-05-11,8.79
+T-0222,Bug,2,Medium,Team A,In Progress,1,4,2024-02-02,2024-02-09,7.02
+T-0223,Feature,3,Low,Team A,In Review,3,4,2024-01-01,2024-01-07,6.3
+T-0224,Feature,8,Medium,Team A,In Review,0,1,2024-01-06,2024-01-11,5.04
+T-0225,Feature,3,Low,Team A,In Progress,2,1,2024-02-10,2024-02-19,9.38
+T-0226,Feature,5,Medium,Team C,In Review,0,3,2024-01-05,2024-01-08,2.81
+T-0227,Spike,3,Medium,Team A,In Progress,3,0,2024-03-20,2024-03-27,6.86
+T-0228,Feature,2,Medium,Team A,In Progress,0,2,2024-01-18,2024-01-24,5.75
+T-0229,Task,13,Medium,Team A,In Progress,3,1,2024-06-25,2024-07-05,9.95
+T-0230,Bug,3,Medium,Team A,Backlog,1,5,2024-03-22,2024-03-27,4.53
+T-0231,Task,8,High,Team B,In Review,2,1,2024-03-05,2024-03-08,3.46
+T-0232,Bug,2,Low,Team B,In Progress,1,0,2024-03-23,2024-03-30,6.88
+T-0233,Bug,2,High,Team A,In Progress,0,0,2024-05-15,2024-05-20,5.48
+T-0234,Bug,1,High,Team A,Testing,1,4,2024-05-10,2024-05-13,3.18
+T-0235,Feature,5,Medium,Team A,Backlog,2,2,2024-01-25,2024-01-31,6.31
+T-0236,Task,3,Medium,Team A,In Progress,1,0,2024-03-09,2024-03-14,5.26
+T-0237,Feature,8,High,Team A,Backlog,2,1,2024-06-16,2024-06-22,6.18
+T-0238,Feature,3,Low,Team C,In Review,2,1,2024-03-22,2024-03-25,3.3
+T-0239,Bug,13,Low,Team B,In Review,1,3,2024-06-26,2024-07-05,9.38
+T-0240,Feature,2,Medium,Team B,In Progress,3,0,2024-04-26,2024-05-03,6.88
+T-0241,Spike,8,High,Team B,In Progress,0,5,2024-04-04,2024-04-14,10.41
+T-0242,Spike,5,Low,Team B,In Progress,3,4,2024-02-02,2024-02-19,16.62
+T-0243,Spike,5,Medium,Team B,In Review,3,2,2024-04-20,2024-04-25,4.71
+T-0244,Feature,8,Critical,Team B,In Progress,1,5,2024-05-25,2024-06-02,8.32
+T-0245,Feature,5,High,Team B,In Progress,0,4,2024-05-04,2024-05-13,8.9
+T-0246,Spike,5,Medium,Team A,Testing,0,1,2024-01-16,2024-01-22,5.58
+T-0247,Bug,1,Low,Team B,In Progress,3,5,2024-03-20,2024-03-31,10.83
+T-0248,Spike,1,High,Team B,Backlog,1,4,2024-02-07,2024-02-12,5.41
+T-0249,Spike,8,Medium,Team C,In Progress,0,1,2024-06-17,2024-06-26,9.31
+T-0250,Task,5,Low,Team B,Testing,3,1,2024-05-14,2024-05-23,9.37
+T-0251,Feature,5,Low,Team B,In Progress,0,1,2024-03-18,2024-03-30,11.86
+T-0252,Feature,3,High,Team A,Backlog,1,1,2024-06-29,2024-07-03,4.07
+T-0253,Task,1,Medium,Team B,In Progress,1,1,2024-03-03,2024-03-09,6.32
+T-0254,Feature,1,High,Team A,In Progress,1,3,2024-04-21,2024-04-27,6.04
+T-0255,Feature,5,High,Team A,Backlog,0,5,2024-03-29,2024-04-02,4.42
+T-0256,Bug,3,Medium,Team A,In Progress,2,4,2024-06-08,2024-06-13,5.21
+T-0257,Spike,2,Medium,Team B,Testing,0,3,2024-02-07,2024-02-13,5.97
+T-0258,Bug,3,Medium,Team A,In Progress,2,3,2024-05-29,2024-06-03,4.83
+T-0259,Bug,1,Medium,Team A,In Progress,1,0,2024-05-23,2024-05-27,3.91
+T-0260,Feature,3,Medium,Team C,In Progress,3,0,2024-02-21,2024-02-27,6.5
+T-0261,Bug,2,High,Team A,Backlog,2,0,2024-01-29,2024-02-01,2.63
+T-0262,Spike,5,Medium,Team B,In Review,1,2,2024-05-23,2024-05-28,4.84
+T-0263,Feature,2,High,Team B,In Progress,1,0,2024-03-16,2024-03-20,4.3
+T-0264,Bug,3,Medium,Team A,In Progress,2,4,2024-05-24,2024-05-31,7.22
+T-0265,Task,1,Medium,Team C,In Progress,3,3,2024-03-04,2024-03-09,4.97
+T-0266,Task,1,Medium,Team A,In Progress,1,4,2024-03-31,2024-04-04,4.23
+T-0267,Bug,3,Medium,Team B,In Progress,2,5,2024-03-29,2024-04-06,7.83
+T-0268,Task,3,High,Team B,Backlog,3,0,2024-01-13,2024-01-18,4.86
+T-0269,Feature,5,Medium,Team B,In Review,3,2,2024-03-12,2024-03-17,5.04
+T-0270,Feature,2,Medium,Team B,Testing,1,5,2024-01-05,2024-01-11,5.52
+T-0271,Task,5,Low,Team A,In Progress,0,2,2024-01-12,2024-01-21,8.97
+T-0272,Task,8,Medium,Team A,Testing,0,5,2024-06-17,2024-06-25,7.64
+T-0273,Task,5,Medium,Team B,Backlog,1,3,2024-01-03,2024-01-10,6.65
+T-0274,Spike,1,Medium,Team B,In Progress,3,4,2024-02-02,2024-02-11,8.73
+T-0275,Bug,3,Critical,Team C,In Progress,1,1,2024-04-30,2024-05-03,3.39
+T-0276,Bug,1,Medium,Team C,In Progress,2,4,2024-02-19,2024-02-23,3.91
+T-0277,Task,2,High,Team C,In Progress,0,0,2024-05-16,2024-05-19,2.93
+T-0278,Bug,13,Medium,Team B,In Progress,2,1,2024-06-26,2024-07-06,10.16
+T-0279,Task,1,Medium,Team A,Backlog,1,2,2024-01-29,2024-02-03,5.03
+T-0280,Task,3,Low,Team C,In Progress,1,3,2024-02-08,2024-02-17,8.73
+T-0281,Task,5,Medium,Team B,Backlog,3,3,2024-03-31,2024-04-07,7.35
+T-0282,Feature,5,Medium,Team A,In Review,3,2,2024-04-09,2024-04-12,3.17
+T-0283,Feature,3,Medium,Team C,Backlog,3,0,2024-06-21,2024-06-26,5.28
+T-0284,Feature,1,Low,Team C,Backlog,2,2,2024-01-17,2024-01-24,6.73
+T-0285,Bug,2,Low,Team B,In Progress,3,5,2024-02-25,2024-03-06,10.48
+T-0286,Feature,3,Medium,Team A,In Progress,1,0,2024-02-15,2024-02-21,5.98
+T-0287,Bug,1,Critical,Team A,In Review,3,1,2024-03-07,2024-03-09,1.97
+T-0288,Bug,3,Medium,Team C,In Progress,0,2,2024-05-21,2024-05-26,5.29
+T-0289,Feature,1,Medium,Team C,In Progress,3,0,2024-03-07,2024-03-13,6.03
+T-0290,Bug,1,Low,Team A,In Review,2,1,2024-01-23,2024-01-27,3.75
+T-0291,Feature,3,Medium,Team A,In Progress,0,2,2024-04-03,2024-04-09,6.34
+T-0292,Feature,1,Medium,Team C,Backlog,0,3,2024-05-30,2024-06-03,3.64
+T-0293,Task,3,Medium,Team A,In Progress,0,2,2024-06-03,2024-06-09,5.61
+T-0294,Feature,5,Medium,Team B,Testing,2,4,2024-02-23,2024-03-02,8.44
+T-0295,Feature,8,Low,Team C,In Progress,1,2,2024-05-17,2024-05-28,11.44
+T-0296,Bug,2,Low,Team A,In Progress,3,4,2024-03-17,2024-03-25,7.67
+T-0297,Task,2,Medium,Team B,Backlog,0,1,2024-01-16,2024-01-20,4.43
+T-0298,Feature,1,Low,Team A,Backlog,0,2,2024-02-10,2024-02-16,6.27
+T-0299,Bug,5,Low,Team A,In Progress,0,1,2024-04-07,2024-04-15,7.62
+T-0300,Feature,5,Medium,Team C,In Progress,1,1,2024-05-07,2024-05-14,6.82
+T-0301,Feature,1,High,Team B,Backlog,1,0,2024-03-01,2024-03-05,3.76
+T-0302,Bug,8,Medium,Team C,Testing,2,1,2024-03-26,2024-04-01,5.5
+T-0303,Bug,1,Medium,Team B,In Review,1,1,2024-04-27,2024-04-28,1.01
+T-0304,Bug,3,Medium,Team A,In Progress,3,2,2024-04-09,2024-04-16,6.69
+T-0305,Task,5,High,Team A,In Review,2,2,2024-02-18,2024-02-21,3.34
+T-0306,Spike,8,Medium,Team A,Backlog,2,3,2024-06-28,2024-07-07,8.64
+T-0307,Bug,5,Low,Team A,In Progress,3,0,2024-01-02,2024-01-11,8.92
+T-0308,Feature,8,Medium,Team A,In Progress,3,1,2024-04-29,2024-05-10,10.72
+T-0309,Task,2,Low,Team A,In Review,3,0,2024-06-26,2024-06-30,4.23
+T-0310,Feature,8,Medium,Team B,In Review,2,4,2024-05-02,2024-05-08,5.73
+T-0311,Bug,1,Medium,Team B,In Progress,2,1,2024-03-26,2024-03-31,4.71
+T-0312,Feature,8,High,Team B,Testing,2,0,2024-06-19,2024-06-26,6.91
+T-0313,Feature,3,Medium,Team B,Backlog,3,3,2024-03-17,2024-03-22,5.36
+T-0314,Spike,8,High,Team A,In Review,3,3,2024-05-15,2024-05-20,4.69
+T-0315,Task,3,Critical,Team A,Testing,0,1,2024-02-28,2024-03-02,2.86
+T-0316,Bug,5,Low,Team B,Backlog,1,4,2024-01-12,2024-01-19,6.74
+T-0317,Bug,3,Medium,Team B,In Review,0,3,2024-01-04,2024-01-07,3.44
+T-0318,Feature,5,Medium,Team A,Backlog,3,3,2024-04-26,2024-05-04,7.65
+T-0319,Feature,1,Medium,Team C,In Progress,2,4,2024-04-04,2024-04-09,5.29
+T-0320,Feature,1,Medium,Team C,In Progress,3,0,2024-05-04,2024-05-11,6.61
+T-0321,Bug,2,High,Team B,In Progress,1,3,2024-02-10,2024-02-14,4.24
+T-0322,Task,2,High,Team A,Testing,0,2,2024-05-02,2024-05-06,3.74
+T-0323,Bug,8,Medium,Team C,In Progress,0,5,2024-01-07,2024-01-15,8.24
+T-0324,Feature,2,Medium,Team B,In Progress,2,5,2024-03-09,2024-03-18,9.07
+T-0325,Spike,13,High,Team C,In Review,0,3,2024-03-09,2024-03-13,4.05
+T-0326,Task,2,Critical,Team C,Testing,0,0,2024-03-21,2024-03-24,3.06
+T-0327,Bug,2,High,Team C,Backlog,3,0,2024-01-30,2024-02-02,3.09
+T-0328,Bug,5,Low,Team B,Testing,0,1,2024-03-13,2024-03-21,7.78
+T-0329,Bug,5,Medium,Team A,Backlog,0,2,2024-01-06,2024-01-10,3.61
+T-0330,Feature,3,Low,Team B,In Review,0,0,2024-03-29,2024-04-02,4.13
+T-0331,Feature,3,Medium,Team B,In Progress,2,4,2024-05-26,2024-06-04,9.43
+T-0332,Task,5,Low,Team B,Backlog,2,2,2024-03-06,2024-03-14,8.48
+T-0333,Feature,2,Medium,Team A,In Progress,3,5,2024-01-10,2024-01-19,8.73
+T-0334,Feature,13,Medium,Team A,In Progress,0,2,2024-05-23,2024-06-03,11.38
+T-0335,Feature,13,Low,Team C,In Progress,2,4,2024-02-06,2024-02-25,19.3
+T-0336,Feature,5,Medium,Team B,Backlog,2,3,2024-03-17,2024-03-25,7.61
+T-0337,Task,2,Medium,Team C,In Progress,3,4,2024-03-17,2024-03-21,4.4
+T-0338,Task,5,Medium,Team C,Testing,1,4,2024-02-01,2024-02-07,5.81
+T-0339,Bug,1,Low,Team B,In Progress,0,3,2024-02-16,2024-02-24,8.17
+T-0340,Feature,1,Medium,Team B,Backlog,2,3,2024-04-19,2024-04-24,4.82
+T-0341,Bug,2,High,Team C,In Progress,3,3,2024-06-19,2024-06-23,3.78
+T-0342,Bug,3,Low,Team B,Backlog,3,3,2024-04-29,2024-05-06,6.63
+T-0343,Feature,8,Low,Team B,In Review,3,3,2024-06-12,2024-06-19,7.38
+T-0344,Bug,5,Medium,Team A,In Review,2,4,2024-06-02,2024-06-05,3.42
+T-0345,Feature,5,High,Team B,In Progress,0,1,2024-01-10,2024-01-17,7.22
+T-0346,Bug,3,Medium,Team B,In Progress,1,1,2024-06-07,2024-06-14,7.27
+T-0347,Bug,2,Medium,Team A,In Review,0,0,2024-04-06,2024-04-06,0.5
+T-0348,Feature,3,Medium,Team A,In Progress,3,1,2024-06-05,2024-06-12,6.74
+T-0349,Feature,13,Medium,Team A,In Review,3,5,2024-01-05,2024-01-13,8.1
+T-0350,Bug,1,Low,Team A,In Progress,1,1,2024-03-17,2024-03-23,5.95
+T-0351,Bug,8,Medium,Team A,In Review,0,4,2024-01-01,2024-01-07,5.67
+T-0352,Task,3,High,Team B,In Progress,3,3,2024-05-10,2024-05-15,5.05
+T-0353,Bug,3,Medium,Team C,In Progress,3,3,2024-03-07,2024-03-11,4.12
+T-0354,Feature,5,High,Team B,Testing,0,4,2024-06-11,2024-06-18,7.48
+T-0355,Feature,3,High,Team A,In Progress,3,5,2024-01-15,2024-01-23,7.71
+T-0356,Bug,8,Low,Team A,In Progress,0,1,2024-04-02,2024-04-11,8.56
+T-0357,Feature,8,High,Team B,Backlog,3,4,2024-01-30,2024-02-07,8.18
+T-0358,Bug,3,Low,Team A,In Progress,0,0,2024-04-12,2024-04-18,6.28
+T-0359,Spike,2,Medium,Team C,In Progress,1,3,2024-03-22,2024-03-28,6.48
+T-0360,Bug,3,Low,Team B,Backlog,3,2,2024-03-15,2024-03-22,6.99
+T-0361,Feature,8,Low,Team C,Backlog,1,0,2024-06-19,2024-06-27,7.99
+T-0362,Bug,2,Medium,Team A,In Progress,3,5,2024-02-29,2024-03-08,8.32
+T-0363,Bug,5,Medium,Team B,In Review,3,0,2024-02-09,2024-02-13,4.34
+T-0364,Bug,5,Medium,Team A,In Progress,2,4,2024-06-05,2024-06-14,8.99
+T-0365,Spike,5,Medium,Team C,Backlog,0,1,2024-03-14,2024-03-18,4.41
+T-0366,Feature,1,Low,Team B,In Progress,1,3,2024-04-30,2024-05-09,8.92
+T-0367,Spike,5,Low,Team A,Backlog,1,5,2024-05-26,2024-06-05,10.14
+T-0368,Spike,8,Medium,Team A,In Progress,1,5,2024-01-03,2024-01-14,10.71
+T-0369,Feature,2,Medium,Team A,Backlog,0,2,2024-02-05,2024-02-10,5.46
+T-0370,Feature,2,High,Team B,Backlog,2,0,2024-02-12,2024-02-17,4.52
+T-0371,Feature,13,Medium,Team A,Backlog,1,2,2024-05-22,2024-05-31,8.79
+T-0372,Feature,2,High,Team B,In Progress,0,1,2024-06-17,2024-06-22,5.05
+T-0373,Feature,8,Medium,Team A,Backlog,3,1,2024-04-24,2024-05-02,8.31
+T-0374,Bug,3,Medium,Team B,In Progress,1,2,2024-04-18,2024-04-24,5.81
+T-0375,Feature,2,Medium,Team C,In Progress,1,3,2024-03-30,2024-04-06,7.41
+T-0376,Feature,8,Medium,Team C,In Progress,2,1,2024-06-12,2024-06-21,8.65
+T-0377,Task,3,Medium,Team C,In Progress,1,2,2024-03-24,2024-03-31,6.52
+T-0378,Feature,3,High,Team A,In Review,1,0,2024-03-17,2024-03-19,2.47
+T-0379,Task,3,Medium,Team A,Backlog,3,2,2024-06-09,2024-06-16,6.9
+T-0380,Feature,3,High,Team B,In Progress,0,2,2024-01-05,2024-01-10,5.29
+T-0381,Feature,2,High,Team A,Backlog,0,4,2024-03-18,2024-03-22,3.6
+T-0382,Bug,3,High,Team B,Backlog,2,1,2024-03-31,2024-04-03,2.6
+T-0383,Bug,13,High,Team A,In Progress,3,3,2024-03-27,2024-04-04,8.34
+T-0384,Task,2,Medium,Team A,In Progress,0,3,2024-01-14,2024-01-20,6.38
+T-0385,Task,5,Medium,Team A,In Review,3,4,2024-04-13,2024-04-19,5.7
+T-0386,Task,2,Medium,Team C,In Progress,0,5,2024-03-23,2024-03-30,6.82
+T-0387,Feature,5,Medium,Team A,Testing,3,3,2024-06-23,2024-06-30,6.88
+T-0388,Feature,1,Medium,Team B,Backlog,2,2,2024-02-23,2024-02-28,4.52
+T-0389,Task,13,High,Team A,Backlog,1,4,2024-05-11,2024-05-19,8.14
+T-0390,Task,3,Medium,Team B,Backlog,2,0,2024-04-04,2024-04-08,4.17
+T-0391,Spike,2,Medium,Team A,Backlog,0,1,2024-01-09,2024-01-13,3.54
+T-0392,Bug,1,Low,Team C,In Progress,2,1,2024-02-22,2024-02-28,5.51
+T-0393,Feature,2,Medium,Team C,In Progress,1,1,2024-03-17,2024-03-21,4.01
+T-0394,Task,3,Low,Team A,Backlog,2,2,2024-02-29,2024-03-05,5.25
+T-0395,Feature,2,High,Team C,Testing,0,0,2024-02-15,2024-02-20,4.52
+T-0396,Spike,8,Medium,Team C,In Review,0,4,2024-02-23,2024-02-27,4.0
+T-0397,Task,3,Low,Team C,In Progress,2,4,2024-03-14,2024-03-22,8.09
+T-0398,Bug,2,Low,Team C,Backlog,1,1,2024-04-21,2024-04-26,4.55
+T-0399,Task,5,Medium,Team A,Backlog,2,0,2024-04-04,2024-04-09,5.05
+T-0400,Task,5,Medium,Team B,Backlog,1,0,2024-06-13,2024-06-18,5.25
+T-0401,Feature,2,Medium,Team A,Backlog,3,0,2024-01-23,2024-01-26,2.95
+T-0402,Spike,2,Low,Team A,In Progress,1,3,2024-01-27,2024-02-06,10.19
+T-0403,Bug,1,Medium,Team C,Backlog,3,3,2024-03-10,2024-03-14,3.57
+T-0404,Task,5,Medium,Team A,In Progress,2,1,2024-04-18,2024-04-26,8.04
+T-0405,Feature,5,Medium,Team B,Testing,1,0,2024-03-17,2024-03-22,5.46
+T-0406,Task,3,Medium,Team C,In Progress,3,5,2024-06-27,2024-07-05,8.46
+T-0407,Feature,8,Medium,Team C,Testing,3,0,2024-02-19,2024-02-27,7.53
+T-0408,Feature,8,Medium,Team C,Backlog,3,4,2024-05-03,2024-05-11,7.93
+T-0409,Spike,3,Critical,Team A,In Progress,0,4,2024-01-19,2024-01-25,5.5
+T-0410,Feature,8,Medium,Team A,In Progress,2,1,2024-01-01,2024-01-09,8.26
+T-0411,Feature,2,Medium,Team B,Backlog,3,5,2024-02-09,2024-02-16,7.28
+T-0412,Spike,1,Low,Team A,Backlog,1,0,2024-06-08,2024-06-14,6.38
+T-0413,Spike,2,Medium,Team A,In Progress,3,5,2024-01-22,2024-01-31,9.36
+T-0414,Bug,1,Low,Team A,In Progress,0,1,2024-04-21,2024-04-28,7.43
+T-0415,Bug,3,Medium,Team C,In Progress,2,4,2024-02-09,2024-02-16,6.72
+T-0416,Bug,8,Critical,Team B,In Progress,0,4,2024-02-07,2024-02-12,5.43
+T-0417,Feature,1,Medium,Team A,In Progress,0,3,2024-02-17,2024-02-25,8.13
+T-0418,Feature,1,Low,Team B,Backlog,0,1,2024-03-15,2024-03-22,7.11
+T-0419,Bug,3,Low,Team A,In Progress,1,1,2024-06-27,2024-07-03,5.55
+T-0420,Task,8,Medium,Team A,Backlog,2,0,2024-04-16,2024-04-21,5.31
+T-0421,Task,2,Low,Team C,Backlog,2,0,2024-01-08,2024-01-12,4.06
+T-0422,Task,3,Low,Team B,Testing,1,3,2024-03-26,2024-04-03,7.92
+T-0423,Feature,1,High,Team C,In Progress,2,2,2024-03-08,2024-03-13,5.07
+T-0424,Bug,1,Medium,Team A,In Review,0,5,2024-03-15,2024-03-18,3.12
+T-0425,Feature,13,Medium,Team C,In Progress,2,2,2024-05-16,2024-05-27,10.75
+T-0426,Bug,13,High,Team B,In Progress,1,2,2024-03-30,2024-04-08,8.61
+T-0427,Bug,1,Low,Team B,Backlog,0,1,2024-05-09,2024-05-14,4.63
+T-0428,Task,13,Critical,Team B,Backlog,1,5,2024-03-20,2024-03-25,5.29
+T-0429,Feature,5,Medium,Team C,Backlog,3,1,2024-04-04,2024-04-09,5.09
+T-0430,Feature,8,High,Team B,In Review,0,5,2024-03-10,2024-03-16,6.0
+T-0431,Feature,3,Medium,Team B,In Progress,0,4,2024-03-30,2024-04-06,7.18
+T-0432,Task,3,High,Team C,In Progress,2,1,2024-02-28,2024-03-05,5.82
+T-0433,Bug,3,Critical,Team C,In Progress,0,1,2024-05-26,2024-05-30,3.73
+T-0434,Feature,5,Medium,Team B,Testing,1,1,2024-01-28,2024-02-03,6.16
+T-0435,Feature,1,Critical,Team B,Backlog,2,3,2024-03-12,2024-03-15,2.81
+T-0436,Task,1,Medium,Team A,In Progress,3,1,2024-01-14,2024-01-20,6.08
+T-0437,Feature,2,Medium,Team A,In Progress,1,0,2024-01-24,2024-01-29,4.91
+T-0438,Task,5,Medium,Team B,In Review,3,0,2024-04-21,2024-04-24,3.38
+T-0439,Task,2,Medium,Team C,Testing,3,5,2024-02-13,2024-02-18,5.29
+T-0440,Feature,5,Low,Team C,Backlog,3,4,2024-02-25,2024-03-03,7.29
+T-0441,Feature,13,Medium,Team A,In Review,0,3,2024-04-29,2024-05-04,4.96
+T-0442,Spike,1,Medium,Team B,In Review,1,5,2024-06-27,2024-07-01,4.05
+T-0443,Feature,5,High,Team A,Backlog,1,0,2024-02-01,2024-02-06,4.54
+T-0444,Feature,3,High,Team C,In Progress,0,3,2024-06-26,2024-07-01,4.62
+T-0445,Task,8,Medium,Team C,In Progress,2,3,2024-06-17,2024-06-26,8.95
+T-0446,Spike,2,Medium,Team B,Testing,3,4,2024-01-25,2024-01-31,6.02
+T-0447,Spike,5,Medium,Team C,Backlog,1,3,2024-04-25,2024-05-02,7.26
+T-0448,Task,8,Low,Team B,In Review,0,1,2024-03-06,2024-03-12,5.93
+T-0449,Feature,8,Low,Team B,In Progress,3,3,2024-02-11,2024-02-28,16.72
+T-0450,Feature,5,Medium,Team A,In Review,2,4,2024-06-12,2024-06-17,5.04
+T-0451,Task,3,Medium,Team B,In Progress,2,5,2024-03-16,2024-03-25,8.94
+T-0452,Bug,5,Critical,Team B,In Progress,3,4,2024-05-16,2024-05-21,5.1
+T-0453,Bug,8,Medium,Team B,In Review,2,4,2024-06-12,2024-06-18,6.15
+T-0454,Spike,3,Medium,Team A,In Review,1,0,2024-02-07,2024-02-10,3.4
+T-0455,Feature,1,Medium,Team C,In Review,1,1,2024-06-09,2024-06-11,2.45
+T-0456,Bug,8,Low,Team A,Backlog,1,0,2024-06-18,2024-06-25,6.63
+T-0457,Feature,5,Medium,Team B,In Progress,2,5,2024-03-01,2024-03-12,11.25
+T-0458,Bug,5,Medium,Team B,Backlog,1,2,2024-06-22,2024-06-27,5.43
+T-0459,Feature,2,Medium,Team B,In Progress,0,5,2024-03-29,2024-04-07,8.55
+T-0460,Feature,5,Medium,Team B,In Progress,1,1,2024-01-18,2024-01-26,7.78
+T-0461,Feature,3,Critical,Team A,In Progress,1,3,2024-03-10,2024-03-14,3.67
+T-0462,Bug,5,High,Team A,In Progress,2,4,2024-03-22,2024-03-29,6.53
+T-0463,Task,1,Medium,Team B,Testing,1,2,2024-04-25,2024-04-29,4.43
+T-0464,Bug,5,Medium,Team B,Backlog,3,1,2024-03-20,2024-03-27,6.51
+T-0465,Spike,13,Medium,Team A,In Progress,0,0,2024-01-15,2024-01-26,11.37
+T-0466,Feature,1,Medium,Team B,In Progress,2,4,2024-06-24,2024-07-01,7.39
+T-0467,Feature,13,Medium,Team B,Backlog,0,5,2024-01-13,2024-01-25,12.24
+T-0468,Task,3,Low,Team B,Backlog,3,0,2024-04-28,2024-05-06,7.66
+T-0469,Feature,8,Medium,Team C,Testing,2,1,2024-02-12,2024-02-19,7.0
+T-0470,Spike,5,Medium,Team A,In Review,2,1,2024-02-26,2024-03-02,4.77
+T-0471,Feature,3,Medium,Team A,Testing,1,5,2024-01-17,2024-01-23,5.94
+T-0472,Spike,5,Critical,Team C,Testing,0,2,2024-06-26,2024-06-30,4.3
+T-0473,Feature,8,High,Team B,Backlog,3,5,2024-02-01,2024-02-09,8.02
+T-0474,Task,3,High,Team B,In Progress,3,3,2024-05-29,2024-06-05,6.93
+T-0475,Bug,2,Medium,Team C,In Progress,2,0,2024-02-24,2024-03-02,6.57
+T-0476,Spike,5,High,Team C,In Progress,1,2,2024-01-13,2024-01-20,6.98
+T-0477,Feature,8,Low,Team C,In Progress,2,4,2024-02-16,2024-02-29,13.44
+T-0478,Bug,5,High,Team B,In Progress,2,3,2024-03-27,2024-04-02,6.27
+T-0479,Spike,5,Low,Team B,In Progress,2,2,2024-03-02,2024-03-15,13.44
+T-0480,Bug,3,High,Team B,In Progress,2,0,2024-01-29,2024-02-03,5.42
+T-0481,Bug,8,Medium,Team A,Backlog,3,1,2024-01-22,2024-01-28,6.1
+T-0482,Bug,1,High,Team B,In Progress,3,4,2024-03-05,2024-03-10,4.84
+T-0483,Bug,3,High,Team A,In Progress,2,5,2024-01-29,2024-02-03,5.04
+T-0484,Bug,1,Low,Team C,In Progress,2,0,2024-02-17,2024-02-23,5.5
+T-0485,Bug,2,Medium,Team B,Backlog,1,3,2024-01-05,2024-01-10,4.77
+T-0486,Spike,3,Critical,Team B,In Review,2,3,2024-06-11,2024-06-14,3.23
+T-0487,Feature,3,Medium,Team A,Backlog,3,1,2024-04-10,2024-04-16,6.01
+T-0488,Feature,5,High,Team A,In Progress,0,1,2024-03-11,2024-03-19,7.83
+T-0489,Spike,3,Medium,Team A,In Review,3,4,2024-06-22,2024-06-25,3.42
+T-0490,Task,3,Medium,Team B,In Progress,1,5,2024-06-11,2024-06-20,9.03
+T-0491,Bug,2,Medium,Team A,In Progress,3,4,2024-06-21,2024-06-27,6.44
+T-0492,Bug,3,Medium,Team B,In Progress,0,1,2024-05-20,2024-05-24,4.28
+T-0493,Feature,2,High,Team C,In Progress,2,1,2024-05-17,2024-05-23,5.72
+T-0494,Feature,1,Medium,Team C,In Review,0,3,2024-03-06,2024-03-09,3.12
+T-0495,Bug,5,Medium,Team B,In Review,2,1,2024-03-12,2024-03-16,4.29
+T-0496,Feature,5,Medium,Team A,In Progress,2,2,2024-01-25,2024-02-01,6.92
+T-0497,Bug,5,Medium,Team C,In Progress,3,0,2024-06-20,2024-06-26,5.72
+T-0498,Feature,3,High,Team C,Backlog,3,1,2024-02-29,2024-03-03,3.15
+T-0499,Spike,3,Critical,Team A,In Progress,3,4,2024-06-23,2024-06-30,7.24
+T-0500,Spike,8,Medium,Team B,In Progress,1,5,2024-02-09,2024-02-24,15.0
+T-0501,Bug,3,High,Team A,In Progress,3,5,2024-01-07,2024-01-12,5.27
+T-0502,Bug,3,High,Team C,In Progress,1,5,2024-06-22,2024-06-26,3.81
+T-0503,Feature,1,Medium,Team C,In Progress,3,2,2024-05-30,2024-06-05,6.18
+T-0504,Task,2,Critical,Team A,Backlog,2,4,2024-02-15,2024-02-19,3.92
+T-0505,Bug,3,Medium,Team C,In Progress,1,2,2024-03-26,2024-03-30,3.93
+T-0506,Feature,3,Low,Team B,In Progress,0,1,2024-05-20,2024-05-28,8.4
+T-0507,Spike,3,High,Team C,In Review,1,0,2024-01-21,2024-01-23,1.61
+T-0508,Task,3,Medium,Team B,Backlog,1,5,2024-01-01,2024-01-08,7.05
+T-0509,Spike,5,High,Team C,In Progress,0,4,2024-05-02,2024-05-09,6.71
+T-0510,Task,5,High,Team A,Testing,1,5,2024-05-26,2024-05-31,4.84
+T-0511,Bug,8,Low,Team A,Backlog,2,2,2024-05-04,2024-05-12,8.06
+T-0512,Bug,5,High,Team A,In Progress,3,3,2024-02-02,2024-02-07,5.31
+T-0513,Spike,13,Medium,Team C,Backlog,0,1,2024-01-04,2024-01-11,7.26
+T-0514,Task,1,Medium,Team C,In Progress,3,0,2024-01-03,2024-01-09,5.9
+T-0515,Feature,2,Medium,Team C,In Progress,2,1,2024-03-31,2024-04-07,7.07
+T-0516,Feature,1,High,Team C,In Progress,0,3,2024-02-21,2024-02-26,4.59
+T-0517,Feature,5,Low,Team A,In Progress,3,0,2024-01-28,2024-02-07,10.07
+T-0518,Task,8,Medium,Team A,In Review,3,3,2024-03-10,2024-03-16,6.02
+T-0519,Spike,2,Medium,Team A,Backlog,2,1,2024-02-26,2024-03-02,5.21
+T-0520,Feature,8,High,Team A,Backlog,3,2,2024-04-17,2024-04-23,5.89
+T-0521,Bug,1,Medium,Team A,In Review,2,1,2024-05-23,2024-05-25,2.36
+T-0522,Feature,8,Low,Team B,In Progress,1,1,2024-01-24,2024-02-07,14.42
+T-0523,Spike,3,Medium,Team A,In Review,2,1,2024-06-17,2024-06-21,3.71
+T-0524,Task,1,Medium,Team A,In Progress,1,4,2024-03-17,2024-03-22,5.38
+T-0525,Task,3,High,Team A,In Review,0,3,2024-06-23,2024-06-26,2.63
+T-0526,Bug,2,Medium,Team A,In Progress,3,3,2024-03-16,2024-03-23,6.54
+T-0527,Bug,2,Medium,Team C,In Review,2,5,2024-03-09,2024-03-12,3.48
+T-0528,Feature,2,Critical,Team C,Testing,2,3,2024-04-10,2024-04-13,3.45
+T-0529,Feature,8,Low,Team C,In Progress,3,5,2024-06-07,2024-06-22,14.52
+T-0530,Task,3,Critical,Team B,Backlog,3,4,2024-04-01,2024-04-06,4.58
+T-0531,Task,2,Medium,Team A,In Progress,0,2,2024-04-01,2024-04-06,5.49
+T-0532,Spike,5,High,Team C,Backlog,0,5,2024-01-30,2024-02-04,4.97
+T-0533,Spike,5,Medium,Team A,Backlog,2,1,2024-01-18,2024-01-25,6.97
+T-0534,Bug,2,Low,Team A,In Progress,0,2,2024-02-13,2024-02-19,6.04
+T-0535,Task,3,High,Team A,In Progress,1,4,2024-06-03,2024-06-07,4.33
+T-0536,Spike,1,High,Team A,In Progress,0,3,2024-04-08,2024-04-12,4.31
+T-0537,Task,2,High,Team A,In Progress,0,5,2024-06-02,2024-06-07,5.04
+T-0538,Feature,5,Low,Team A,In Progress,2,1,2024-04-30,2024-05-11,10.56
+T-0539,Bug,2,High,Team B,Backlog,1,0,2024-04-24,2024-04-26,2.44
+T-0540,Feature,3,High,Team A,Backlog,0,0,2024-02-29,2024-03-03,3.24
+T-0541,Spike,5,Medium,Team A,Backlog,1,2,2024-05-25,2024-05-30,5.49
+T-0542,Bug,1,High,Team C,In Progress,1,3,2024-02-25,2024-03-01,4.61
+T-0543,Feature,3,High,Team A,Backlog,1,0,2024-01-31,2024-02-05,4.98
+T-0544,Bug,2,Medium,Team A,In Progress,3,2,2024-04-10,2024-04-17,6.95
+T-0545,Bug,13,Low,Team C,In Progress,3,4,2024-02-28,2024-03-15,15.82
+T-0546,Feature,3,Medium,Team A,In Review,3,2,2024-05-03,2024-05-07,4.44
+T-0547,Feature,8,Low,Team A,Backlog,3,2,2024-05-09,2024-05-17,8.47
+T-0548,Bug,3,Medium,Team B,In Progress,2,2,2024-04-06,2024-04-13,6.89
+T-0549,Bug,1,Medium,Team A,In Progress,0,1,2024-06-15,2024-06-19,3.84
+T-0550,Task,5,Low,Team B,In Review,3,2,2024-04-16,2024-04-23,6.58
+T-0551,Bug,13,Medium,Team C,Testing,2,5,2024-01-18,2024-01-25,6.73
+T-0552,Task,5,Low,Team A,Backlog,0,2,2024-05-24,2024-05-31,6.82
+T-0553,Bug,8,High,Team B,Backlog,3,1,2024-06-15,2024-06-20,5.33
+T-0554,Bug,8,High,Team B,In Review,0,1,2024-03-11,2024-03-15,4.08
+T-0555,Task,2,Low,Team A,In Progress,3,4,2024-04-15,2024-04-25,10.42
+T-0556,Bug,2,Critical,Team B,In Progress,2,3,2024-02-23,2024-02-26,3.22
+T-0557,Feature,5,Medium,Team A,In Progress,1,0,2024-04-03,2024-04-09,6.22
+T-0558,Feature,3,Medium,Team B,In Progress,1,0,2024-03-16,2024-03-23,7.09
+T-0559,Task,8,Low,Team A,Testing,0,2,2024-02-04,2024-02-13,9.39
+T-0560,Bug,8,Medium,Team B,Testing,2,4,2024-01-11,2024-01-19,7.92
+T-0561,Task,3,High,Team A,In Review,1,2,2024-03-01,2024-03-02,1.47
+T-0562,Feature,2,High,Team C,In Progress,3,0,2024-02-13,2024-02-17,4.13
+T-0563,Feature,5,Low,Team A,In Review,1,1,2024-04-30,2024-05-05,4.98
+T-0564,Feature,2,Low,Team B,Backlog,0,3,2024-03-08,2024-03-15,7.36
+T-0565,Feature,8,Medium,Team B,Backlog,0,4,2024-01-25,2024-02-02,8.18
+T-0566,Bug,3,Medium,Team B,In Review,2,1,2024-06-24,2024-06-27,2.67
+T-0567,Feature,5,Medium,Team B,In Progress,0,3,2024-06-08,2024-06-16,8.4
+T-0568,Bug,1,Medium,Team B,Backlog,1,4,2024-03-24,2024-03-30,5.5
+T-0569,Spike,5,High,Team C,Backlog,1,4,2024-04-23,2024-04-28,4.85
+T-0570,Feature,3,High,Team C,In Review,1,0,2024-05-11,2024-05-13,1.91
+T-0571,Bug,3,Medium,Team A,In Progress,1,1,2024-06-14,2024-06-19,4.86
+T-0572,Task,2,High,Team B,In Progress,2,4,2024-06-23,2024-06-28,4.93
+T-0573,Feature,5,Medium,Team C,Backlog,3,5,2024-01-01,2024-01-08,6.61
+T-0574,Bug,8,Medium,Team C,In Review,3,4,2024-05-10,2024-05-16,5.51
+T-0575,Task,2,Medium,Team C,In Review,2,3,2024-03-26,2024-03-28,2.07
+T-0576,Spike,1,Medium,Team A,In Progress,0,0,2024-03-02,2024-03-07,4.51
+T-0577,Feature,1,Critical,Team A,In Progress,3,2,2024-03-04,2024-03-07,2.74
+T-0578,Spike,5,Medium,Team B,Backlog,0,0,2024-05-24,2024-05-30,6.14
+T-0579,Bug,5,Medium,Team B,Testing,3,2,2024-05-05,2024-05-13,7.61
+T-0580,Feature,3,Medium,Team B,In Progress,0,1,2024-04-14,2024-04-21,6.93
+T-0581,Bug,2,Low,Team B,Testing,2,1,2024-03-02,2024-03-08,5.75
+T-0582,Spike,3,High,Team C,In Progress,1,4,2024-02-04,2024-02-10,5.74
+T-0583,Bug,3,Medium,Team A,In Review,0,5,2024-01-13,2024-01-16,3.11
+T-0584,Feature,3,Medium,Team C,In Review,1,1,2024-06-11,2024-06-15,4.04
+T-0585,Bug,13,Medium,Team B,In Progress,0,4,2024-02-12,2024-02-24,12.3
+T-0586,Feature,1,Medium,Team A,Testing,0,0,2024-05-09,2024-05-14,5.34
+T-0587,Feature,5,Low,Team B,In Progress,0,1,2024-04-20,2024-05-02,11.57
+T-0588,Feature,3,Medium,Team C,Backlog,0,0,2024-05-07,2024-05-11,4.01
+T-0589,Feature,3,Medium,Team A,In Progress,0,0,2024-02-20,2024-02-26,5.64
+T-0590,Feature,5,High,Team A,In Review,1,5,2024-05-23,2024-05-28,5.05
+T-0591,Feature,5,High,Team C,In Progress,0,1,2024-05-25,2024-05-30,5.48
+T-0592,Bug,13,High,Team A,Backlog,1,0,2024-05-14,2024-05-20,6.34
+T-0593,Feature,1,Medium,Team B,In Progress,2,5,2024-02-14,2024-02-24,9.87
+T-0594,Feature,1,Medium,Team B,In Progress,3,5,2024-06-12,2024-06-20,8.48
+T-0595,Task,5,Low,Team B,In Progress,0,1,2024-06-17,2024-06-27,9.88
+T-0596,Bug,3,High,Team B,In Progress,3,5,2024-02-11,2024-02-18,7.47
+T-0597,Bug,2,Medium,Team A,In Review,1,1,2024-05-14,2024-05-17,3.04
+T-0598,Feature,1,Medium,Team B,Backlog,2,1,2024-01-15,2024-01-21,5.52
+T-0599,Feature,1,Medium,Team A,In Progress,2,2,2024-02-29,2024-03-05,5.0
+T-0600,Feature,8,Low,Team B,In Progress,2,0,2024-02-09,2024-02-21,12.35
+T-0601,Feature,2,Medium,Team A,Backlog,3,3,2024-06-13,2024-06-18,5.11
+T-0602,Feature,2,Low,Team B,In Review,1,1,2024-04-21,2024-04-26,5.41
+T-0603,Feature,2,High,Team A,Testing,0,0,2024-03-17,2024-03-19,2.18
+T-0604,Feature,3,Medium,Team A,In Progress,0,5,2024-04-14,2024-04-23,8.94
+T-0605,Feature,1,Low,Team A,In Review,1,4,2024-04-16,2024-04-21,4.85
+T-0606,Bug,3,Medium,Team A,In Review,3,1,2024-05-01,2024-05-05,3.8
+T-0607,Feature,1,Low,Team C,In Review,0,5,2024-03-20,2024-03-23,3.29
+T-0608,Feature,8,Medium,Team A,Backlog,1,5,2024-05-04,2024-05-12,8.48
+T-0609,Bug,2,High,Team C,Testing,0,5,2024-06-20,2024-06-24,3.56
+T-0610,Bug,3,Low,Team C,In Progress,2,5,2024-05-13,2024-05-22,8.79
+T-0611,Feature,8,High,Team B,In Progress,0,5,2024-02-01,2024-02-11,10.07
+T-0612,Task,5,Low,Team A,Backlog,3,1,2024-04-17,2024-04-24,6.98
+T-0613,Bug,3,Medium,Team A,In Progress,1,3,2024-04-23,2024-04-29,6.05
+T-0614,Feature,2,High,Team C,Backlog,3,2,2024-05-25,2024-05-30,4.77
+T-0615,Task,2,Medium,Team A,Backlog,1,5,2024-03-08,2024-03-12,4.17
+T-0616,Spike,5,Low,Team A,In Progress,2,5,2024-05-06,2024-05-21,15.14
+T-0617,Feature,13,Medium,Team B,In Review,1,2,2024-05-14,2024-05-22,7.75
+T-0618,Feature,5,Medium,Team C,In Review,0,1,2024-04-23,2024-04-26,2.58
+T-0619,Task,3,High,Team C,In Progress,0,0,2024-01-08,2024-01-12,4.26
+T-0620,Task,5,Medium,Team A,In Review,2,4,2024-03-04,2024-03-09,4.95
+T-0621,Feature,3,High,Team B,In Review,1,4,2024-05-14,2024-05-17,2.55
+T-0622,Feature,1,High,Team A,In Review,2,0,2024-02-10,2024-02-12,2.16
+T-0623,Feature,3,Medium,Team A,Backlog,0,1,2024-02-09,2024-02-14,4.53
+T-0624,Bug,13,High,Team C,In Progress,3,4,2024-01-03,2024-01-12,8.75
+T-0625,Bug,2,Medium,Team A,Testing,2,2,2024-05-24,2024-05-28,4.14
+T-0626,Feature,5,Critical,Team A,In Progress,3,0,2024-04-19,2024-04-23,4.07
+T-0627,Bug,2,Low,Team A,In Progress,3,3,2024-04-23,2024-05-02,8.91
+T-0628,Task,3,Medium,Team C,In Progress,1,1,2024-04-21,2024-04-26,5.05
+T-0629,Feature,1,Medium,Team C,In Progress,2,0,2024-06-28,2024-07-04,5.69
+T-0630,Feature,3,Medium,Team B,In Progress,3,4,2024-05-29,2024-06-06,8.36
+T-0631,Task,5,Medium,Team C,Backlog,3,1,2024-01-04,2024-01-09,5.13
+T-0632,Task,2,High,Team A,In Progress,1,2,2024-05-13,2024-05-18,4.61
+T-0633,Bug,5,Low,Team B,In Review,1,1,2024-06-14,2024-06-18,4.38
+T-0634,Bug,5,Low,Team A,In Review,0,1,2024-01-26,2024-01-29,3.44
+T-0635,Feature,8,High,Team A,Backlog,3,2,2024-05-18,2024-05-24,5.7
+T-0636,Bug,2,Medium,Team B,Testing,0,5,2024-01-17,2024-01-23,5.63
+T-0637,Bug,3,Critical,Team C,In Progress,3,2,2024-04-01,2024-04-05,4.3
+T-0638,Feature,2,High,Team A,In Progress,0,1,2024-01-31,2024-02-04,4.45
+T-0639,Feature,13,Critical,Team A,In Review,1,2,2024-06-11,2024-06-14,2.76
+T-0640,Feature,8,High,Team A,In Review,2,5,2024-05-23,2024-05-29,6.14
+T-0641,Feature,3,Medium,Team A,Testing,1,0,2024-04-16,2024-04-20,3.8
+T-0642,Feature,8,Low,Team C,In Progress,0,2,2024-05-25,2024-06-04,9.98
+T-0643,Feature,3,High,Team B,In Review,0,2,2024-04-20,2024-04-21,1.39
+T-0644,Feature,5,Medium,Team B,Backlog,2,1,2024-04-10,2024-04-17,6.78
+T-0645,Feature,1,Low,Team C,In Review,3,0,2024-04-21,2024-04-24,3.26
+T-0646,Task,5,Medium,Team A,In Review,0,3,2024-03-02,2024-03-06,4.45
+T-0647,Bug,1,Critical,Team B,In Progress,0,3,2024-04-21,2024-04-25,3.8
+T-0648,Bug,8,Medium,Team B,In Progress,0,4,2024-06-03,2024-06-13,9.77
+T-0649,Task,5,Medium,Team B,In Review,2,2,2024-06-11,2024-06-15,4.11
+T-0650,Bug,5,Medium,Team C,Backlog,1,2,2024-04-25,2024-04-30,5.49
+T-0651,Feature,1,Medium,Team C,Backlog,0,0,2024-06-21,2024-06-26,4.94
+T-0652,Bug,2,Medium,Team A,In Review,2,5,2024-02-04,2024-02-08,4.01
+T-0653,Bug,2,Medium,Team C,In Progress,0,3,2024-01-28,2024-02-02,4.6
+T-0654,Task,3,Low,Team A,In Review,3,4,2024-04-12,2024-04-18,5.6
+T-0655,Bug,1,High,Team A,In Progress,2,0,2024-05-04,2024-05-07,3.16
+T-0656,Feature,8,Medium,Team A,Backlog,0,2,2024-04-11,2024-04-17,5.89
+T-0657,Feature,3,High,Team A,In Review,2,3,2024-05-16,2024-05-18,2.33
+T-0658,Feature,2,High,Team B,In Progress,0,4,2024-05-22,2024-05-28,5.93
+T-0659,Bug,3,Medium,Team B,Backlog,1,1,2024-01-21,2024-01-26,4.62
+T-0660,Bug,3,Medium,Team C,In Review,0,3,2024-02-21,2024-02-25,4.34
+T-0661,Feature,5,Medium,Team B,In Progress,2,4,2024-06-11,2024-06-21,9.98
+T-0662,Spike,3,High,Team B,In Progress,3,0,2024-04-06,2024-04-14,7.66
+T-0663,Bug,8,Medium,Team A,In Progress,3,1,2024-02-20,2024-02-28,7.72
+T-0664,Feature,3,Medium,Team A,In Review,3,4,2024-03-23,2024-03-26,2.6
+T-0665,Feature,13,Medium,Team B,In Review,0,4,2024-02-24,2024-03-02,7.04
+T-0666,Feature,8,Medium,Team B,In Review,1,2,2024-03-17,2024-03-23,6.39
+T-0667,Feature,2,Low,Team C,Backlog,0,5,2024-05-06,2024-05-13,6.88
+T-0668,Feature,8,Medium,Team A,In Review,3,3,2024-06-20,2024-06-26,5.83
+T-0669,Feature,1,High,Team A,In Progress,2,2,2024-04-02,2024-04-08,5.92
+T-0670,Feature,8,Medium,Team B,In Progress,3,1,2024-03-28,2024-04-07,10.38
+T-0671,Feature,3,Medium,Team A,In Progress,2,5,2024-03-20,2024-03-28,7.65
+T-0672,Task,8,Medium,Team A,In Review,1,4,2024-06-01,2024-06-04,3.03
+T-0673,Feature,8,High,Team B,In Review,2,2,2024-04-01,2024-04-06,5.27
+T-0674,Bug,8,Low,Team A,Backlog,0,5,2024-02-16,2024-02-25,8.98
+T-0675,Bug,5,High,Team B,In Progress,0,3,2024-02-07,2024-02-14,6.59
+T-0676,Spike,2,Medium,Team A,In Review,0,1,2024-05-18,2024-05-20,2.14
+T-0677,Feature,1,Medium,Team A,Backlog,2,0,2024-01-15,2024-01-18,2.71
+T-0678,Feature,3,Low,Team A,Testing,0,2,2024-01-01,2024-01-06,5.3
+T-0679,Spike,2,Low,Team C,In Progress,0,1,2024-05-14,2024-05-21,6.87
+T-0680,Task,5,Medium,Team A,In Progress,0,0,2024-01-01,2024-01-08,7.24
+T-0681,Task,2,Medium,Team C,In Progress,1,2,2024-02-18,2024-02-24,6.26
+T-0682,Feature,13,High,Team A,Backlog,2,1,2024-04-05,2024-04-12,6.78
+T-0683,Feature,5,Low,Team C,Testing,2,1,2024-06-05,2024-06-12,7.43
+T-0684,Bug,8,Medium,Team A,In Progress,3,5,2024-01-26,2024-02-05,9.52
+T-0685,Spike,1,Medium,Team B,In Review,2,2,2024-03-27,2024-03-31,4.1
+T-0686,Bug,8,Low,Team B,In Progress,1,1,2024-06-21,2024-07-01,9.97
+T-0687,Bug,8,Low,Team C,Backlog,2,4,2024-04-02,2024-04-11,9.05
+T-0688,Feature,3,Medium,Team A,Backlog,1,2,2024-04-11,2024-04-15,4.46
+T-0689,Task,5,Medium,Team A,In Progress,1,1,2024-03-11,2024-03-18,7.39
+T-0690,Feature,5,Medium,Team A,Testing,2,5,2024-05-19,2024-05-26,7.01
+T-0691,Feature,2,Medium,Team C,In Progress,3,0,2024-04-04,2024-04-09,5.14
+T-0692,Bug,3,Medium,Team B,In Progress,0,0,2024-06-08,2024-06-15,6.67
+T-0693,Bug,3,Low,Team C,In Progress,0,4,2024-04-27,2024-05-05,7.54
+T-0694,Feature,1,Medium,Team A,In Progress,2,2,2024-05-27,2024-06-02,5.81
+T-0695,Feature,3,Critical,Team A,In Progress,2,5,2024-04-28,2024-05-04,5.7
+T-0696,Bug,1,Medium,Team A,In Review,1,1,2024-02-20,2024-02-21,1.15
+T-0697,Feature,1,Medium,Team C,In Progress,2,1,2024-03-21,2024-03-27,6.3
+T-0698,Bug,1,Medium,Team B,In Progress,1,0,2024-02-05,2024-02-10,4.67
+T-0699,Feature,13,High,Team C,Backlog,3,5,2024-03-07,2024-03-16,9.44
+T-0700,Bug,3,High,Team A,Testing,2,4,2024-05-08,2024-05-11,2.72
+T-0701,Bug,13,Medium,Team B,Backlog,0,0,2024-04-23,2024-04-30,6.84
+T-0702,Feature,3,Critical,Team B,Backlog,0,0,2024-06-03,2024-06-06,2.96
+T-0703,Feature,2,Low,Team A,In Progress,2,4,2024-04-20,2024-04-30,10.49
+T-0704,Feature,3,Low,Team C,In Progress,1,2,2024-06-16,2024-06-25,9.0
+T-0705,Feature,3,High,Team C,In Progress,0,1,2024-05-21,2024-05-25,4.34
+T-0706,Spike,1,High,Team C,In Progress,1,2,2024-04-09,2024-04-14,5.06
+T-0707,Feature,5,Low,Team B,In Review,2,5,2024-04-18,2024-04-26,8.33
+T-0708,Task,2,Medium,Team A,Backlog,2,3,2024-04-29,2024-05-04,4.63
+T-0709,Feature,5,Low,Team A,In Review,0,3,2024-03-19,2024-03-24,4.94
+T-0710,Bug,5,Medium,Team C,In Progress,2,3,2024-05-13,2024-05-18,5.32
+T-0711,Task,2,High,Team A,In Progress,3,4,2024-06-09,2024-06-14,5.43
+T-0712,Bug,1,Medium,Team B,In Progress,3,0,2024-01-19,2024-01-23,3.85
+T-0713,Bug,5,Medium,Team B,In Progress,0,2,2024-05-06,2024-05-13,6.99
+T-0714,Bug,3,Medium,Team B,In Review,3,1,2024-01-29,2024-02-02,4.1
+T-0715,Feature,1,Low,Team C,In Progress,1,3,2024-01-24,2024-01-30,5.9
+T-0716,Spike,13,Medium,Team A,In Progress,0,2,2024-05-30,2024-06-13,13.57
+T-0717,Task,1,Medium,Team A,In Progress,0,3,2024-01-10,2024-01-15,5.06
+T-0718,Spike,5,Critical,Team A,Testing,1,3,2024-04-14,2024-04-18,4.09
+T-0719,Feature,13,High,Team B,In Progress,3,1,2024-06-17,2024-06-28,11.05
+T-0720,Task,2,Low,Team A,Testing,3,5,2024-06-25,2024-07-01,5.9
+T-0721,Spike,1,High,Team A,In Progress,3,5,2024-05-24,2024-05-30,5.93
+T-0722,Feature,1,High,Team C,Backlog,0,5,2024-06-21,2024-06-26,5.4
+T-0723,Feature,2,High,Team C,Backlog,0,4,2024-06-06,2024-06-09,2.98
+T-0724,Task,1,Medium,Team A,In Progress,3,0,2024-06-20,2024-06-24,3.79
+T-0725,Bug,5,Medium,Team A,Backlog,2,4,2024-02-24,2024-03-01,5.82
+T-0726,Task,1,Medium,Team C,Backlog,3,2,2024-05-26,2024-05-30,4.04
+T-0727,Feature,3,Low,Team A,Testing,1,4,2024-06-05,2024-06-12,7.24
+T-0728,Task,13,Medium,Team A,In Review,0,2,2024-01-02,2024-01-07,5.26
+T-0729,Feature,8,Medium,Team A,In Review,1,2,2024-06-12,2024-06-17,5.26
+T-0730,Feature,5,Medium,Team B,Backlog,1,0,2024-05-26,2024-06-01,5.51
+T-0731,Feature,2,High,Team A,Backlog,0,1,2024-05-14,2024-05-18,3.55
+T-0732,Task,5,Medium,Team C,Backlog,2,0,2024-06-02,2024-06-08,5.52
+T-0733,Bug,3,Low,Team B,In Review,3,5,2024-04-20,2024-04-25,4.63
+T-0734,Bug,3,Critical,Team B,Testing,1,5,2024-02-07,2024-02-09,1.58
+T-0735,Feature,1,High,Team A,In Progress,0,4,2024-05-10,2024-05-15,5.49
+T-0736,Task,8,High,Team B,Backlog,1,2,2024-04-11,2024-04-19,7.95
+T-0737,Feature,3,Critical,Team B,In Progress,3,3,2024-04-04,2024-04-09,5.49
+T-0738,Task,2,Medium,Team C,In Progress,2,3,2024-04-01,2024-04-07,6.23
+T-0739,Bug,3,Critical,Team C,In Progress,2,2,2024-03-11,2024-03-14,3.11
+T-0740,Feature,3,Low,Team B,In Progress,2,0,2024-06-19,2024-06-30,10.68
+T-0741,Bug,8,Medium,Team C,In Review,0,1,2024-01-24,2024-01-27,3.23
+T-0742,Feature,5,Medium,Team C,Backlog,0,0,2024-06-15,2024-06-20,4.55
+T-0743,Task,5,Low,Team C,Backlog,2,2,2024-03-08,2024-03-16,7.7
+T-0744,Bug,1,Low,Team A,Testing,3,2,2024-05-07,2024-05-12,4.67
+T-0745,Feature,3,Medium,Team A,Backlog,3,1,2024-04-02,2024-04-06,4.25
+T-0746,Task,3,High,Team A,Backlog,0,4,2024-02-13,2024-02-18,4.7
+T-0747,Feature,1,Medium,Team B,Backlog,2,4,2024-05-12,2024-05-17,5.4
+T-0748,Bug,2,Low,Team B,Backlog,3,1,2024-02-24,2024-02-29,5.18
+T-0749,Spike,5,High,Team B,In Progress,3,4,2024-06-06,2024-06-17,11.43
+T-0750,Bug,1,Medium,Team C,In Review,3,3,2024-01-29,2024-01-31,2.47
+T-0751,Feature,3,Medium,Team C,In Progress,0,4,2024-06-02,2024-06-09,7.35
+T-0752,Spike,2,Medium,Team C,In Progress,2,4,2024-06-02,2024-06-10,7.73
+T-0753,Bug,1,Medium,Team A,In Progress,1,4,2024-02-06,2024-02-11,4.61
+T-0754,Feature,2,Medium,Team B,In Progress,2,3,2024-04-24,2024-05-03,8.63
+T-0755,Feature,13,High,Team A,In Review,2,4,2024-06-29,2024-07-05,5.95
+T-0756,Task,8,Medium,Team A,In Review,0,5,2024-06-06,2024-06-10,4.33
+T-0757,Bug,13,Medium,Team A,Backlog,3,3,2024-01-03,2024-01-12,8.99
+T-0758,Bug,3,High,Team A,In Review,3,1,2024-05-01,2024-05-03,1.89
+T-0759,Task,1,High,Team B,In Progress,0,0,2024-02-12,2024-02-15,3.16
+T-0760,Task,3,Low,Team C,Testing,0,1,2024-01-07,2024-01-11,4.19
+T-0761,Feature,3,Low,Team A,In Progress,0,0,2024-05-04,2024-05-12,7.65
+T-0762,Feature,8,Low,Team B,Testing,0,1,2024-02-18,2024-02-27,9.2
+T-0763,Feature,1,Medium,Team B,In Review,0,5,2024-04-30,2024-05-05,4.96
+T-0764,Task,3,Medium,Team A,Backlog,1,0,2024-03-13,2024-03-17,4.06
+T-0765,Feature,2,Low,Team B,In Progress,2,0,2024-02-10,2024-02-18,8.05
+T-0766,Bug,2,Critical,Team A,Testing,2,2,2024-04-15,2024-04-18,2.56
+T-0767,Task,5,Medium,Team B,In Review,2,0,2024-03-17,2024-03-20,2.76
+T-0768,Task,3,Medium,Team B,Backlog,3,0,2024-05-06,2024-05-11,5.09
+T-0769,Feature,3,Medium,Team A,In Review,1,2,2024-03-31,2024-04-04,3.68
+T-0770,Task,3,Medium,Team A,In Progress,2,4,2024-06-03,2024-06-10,7.48
+T-0771,Feature,3,Low,Team B,Backlog,3,4,2024-01-08,2024-01-18,10.48
+T-0772,Task,5,Medium,Team C,In Progress,1,2,2024-02-01,2024-02-10,8.9
+T-0773,Feature,8,High,Team A,Backlog,1,3,2024-03-04,2024-03-11,6.57
+T-0774,Feature,13,Medium,Team B,In Review,3,0,2024-05-17,2024-05-25,7.63
+T-0775,Task,5,Medium,Team B,In Progress,1,0,2024-01-13,2024-01-22,9.28
+T-0776,Feature,2,Medium,Team C,In Review,3,2,2024-04-02,2024-04-04,2.48
+T-0777,Feature,5,Low,Team C,Backlog,2,2,2024-06-11,2024-06-19,7.77
+T-0778,Task,3,Low,Team B,In Progress,3,3,2024-03-01,2024-03-11,10.44
+T-0779,Task,2,Medium,Team B,Backlog,1,5,2024-01-08,2024-01-15,6.54
+T-0780,Bug,8,Medium,Team C,Backlog,2,4,2024-01-29,2024-02-05,6.72
+T-0781,Bug,1,Low,Team A,Backlog,2,1,2024-04-04,2024-04-08,3.89
+T-0782,Bug,8,High,Team A,Backlog,0,5,2024-02-10,2024-02-15,5.26
+T-0783,Feature,3,Critical,Team A,In Progress,0,4,2024-06-06,2024-06-11,5.23
+T-0784,Feature,5,High,Team C,In Progress,1,0,2024-05-28,2024-06-01,4.22
+T-0785,Feature,5,High,Team C,In Progress,3,5,2024-01-11,2024-01-18,7.15
+T-0786,Spike,8,Medium,Team A,In Progress,3,2,2024-01-02,2024-01-13,10.57
+T-0787,Bug,5,Critical,Team B,In Review,1,3,2024-06-26,2024-06-29,2.63
+T-0788,Bug,5,Low,Team B,Testing,2,4,2024-06-17,2024-06-27,9.52
+T-0789,Bug,1,Critical,Team A,In Progress,1,3,2024-05-10,2024-05-11,1.41
+T-0790,Spike,3,Critical,Team C,In Progress,1,4,2024-03-20,2024-03-25,4.86
+T-0791,Feature,2,High,Team A,Backlog,2,5,2024-06-27,2024-07-01,3.97
+T-0792,Bug,5,Critical,Team A,Testing,3,0,2024-03-27,2024-03-31,3.6
+T-0793,Bug,3,Medium,Team B,Backlog,1,1,2024-06-01,2024-06-05,4.35
+T-0794,Bug,5,Medium,Team B,In Progress,3,3,2024-06-06,2024-06-15,8.75
+T-0795,Feature,1,Medium,Team A,In Progress,1,3,2024-04-15,2024-04-21,6.15
+T-0796,Task,1,Medium,Team B,In Progress,2,1,2024-05-18,2024-05-25,6.85
+T-0797,Spike,5,Low,Team B,Backlog,2,3,2024-01-17,2024-01-29,12.38
+T-0798,Bug,1,Medium,Team A,In Review,0,3,2024-06-02,2024-06-03,1.49
+T-0799,Bug,1,Critical,Team A,Backlog,2,4,2024-01-23,2024-01-25,1.75
+T-0800,Spike,1,Low,Team B,In Progress,0,4,2024-06-28,2024-07-08,10.36
+T-0801,Task,13,High,Team A,Backlog,1,1,2024-02-17,2024-02-23,5.55
+T-0802,Feature,5,High,Team C,Backlog,3,0,2024-01-20,2024-01-25,5.07
+T-0803,Bug,3,High,Team C,Testing,2,5,2024-01-02,2024-01-07,4.84
+T-0804,Bug,2,Critical,Team C,Backlog,2,5,2024-03-28,2024-03-30,2.31
+T-0805,Bug,2,Medium,Team A,In Review,2,3,2024-01-31,2024-02-02,2.26
+T-0806,Task,5,Critical,Team C,In Progress,1,0,2024-06-03,2024-06-06,3.37
+T-0807,Spike,5,High,Team B,Backlog,0,1,2024-05-09,2024-05-14,5.4
+T-0808,Spike,2,Low,Team A,Testing,1,1,2024-03-18,2024-03-25,6.56
+T-0809,Bug,2,Medium,Team A,Backlog,3,4,2024-01-04,2024-01-07,2.97
+T-0810,Feature,1,High,Team A,In Review,1,3,2024-05-20,2024-05-22,1.69
+T-0811,Spike,5,Medium,Team B,Backlog,3,2,2024-06-11,2024-06-19,7.82
+T-0812,Task,5,Medium,Team B,In Review,2,1,2024-05-07,2024-05-10,3.42
+T-0813,Feature,2,Medium,Team A,Backlog,3,3,2024-05-13,2024-05-16,3.22
+T-0814,Spike,1,Low,Team B,In Progress,3,0,2024-01-31,2024-02-08,7.57
+T-0815,Task,1,Medium,Team A,In Review,0,4,2024-05-17,2024-05-19,1.77
+T-0816,Bug,13,High,Team B,Testing,3,5,2024-01-21,2024-01-30,8.78
+T-0817,Bug,2,Medium,Team A,Testing,3,0,2024-01-23,2024-01-26,3.38
+T-0818,Feature,5,Low,Team C,In Review,1,1,2024-05-10,2024-05-14,4.07
+T-0819,Feature,5,Low,Team C,In Review,2,1,2024-06-08,2024-06-13,5.43
+T-0820,Feature,3,Medium,Team B,Backlog,1,0,2024-05-27,2024-06-02,5.82
+T-0821,Task,2,High,Team A,In Progress,1,1,2024-01-29,2024-02-02,4.43
+T-0822,Feature,1,Medium,Team A,In Progress,2,3,2024-04-14,2024-04-21,6.54
+T-0823,Feature,5,Medium,Team C,In Progress,2,1,2024-02-21,2024-02-28,6.69
+T-0824,Feature,5,Medium,Team A,In Progress,3,4,2024-04-24,2024-05-03,9.13
+T-0825,Bug,5,Medium,Team A,In Progress,3,3,2024-06-22,2024-06-28,6.15
+T-0826,Spike,3,High,Team A,Backlog,0,2,2024-06-10,2024-06-14,4.07
+T-0827,Feature,1,High,Team B,In Progress,1,1,2024-04-10,2024-04-16,5.63
+T-0828,Feature,13,Low,Team B,Backlog,2,1,2024-03-24,2024-04-07,14.44
+T-0829,Task,5,Medium,Team C,In Progress,3,4,2024-03-01,2024-03-09,8.19
+T-0830,Bug,2,Low,Team A,In Progress,2,4,2024-05-04,2024-05-12,8.3
+T-0831,Feature,13,Medium,Team A,In Review,3,5,2024-03-11,2024-03-17,5.57
+T-0832,Bug,5,Medium,Team C,In Review,0,0,2024-03-10,2024-03-12,2.22
+T-0833,Feature,3,Low,Team C,In Progress,0,0,2024-05-18,2024-05-25,6.7
+T-0834,Feature,5,Medium,Team A,Backlog,2,0,2024-04-17,2024-04-24,6.64
+T-0835,Bug,8,Medium,Team B,In Progress,0,4,2024-01-21,2024-01-31,9.85
+T-0836,Bug,5,High,Team A,Backlog,2,0,2024-05-10,2024-05-14,3.96
+T-0837,Spike,1,Critical,Team C,In Progress,3,0,2024-03-22,2024-03-26,3.81
+T-0838,Feature,2,Low,Team A,In Progress,1,2,2024-03-28,2024-04-05,8.25
+T-0839,Bug,8,High,Team C,Backlog,0,0,2024-04-20,2024-04-25,4.92
+T-0840,Bug,2,Medium,Team B,In Progress,3,1,2024-01-10,2024-01-14,4.27
+T-0841,Feature,3,Medium,Team B,Testing,1,5,2024-06-03,2024-06-10,7.11
+T-0842,Bug,3,High,Team A,Testing,1,4,2024-01-12,2024-01-17,4.68
+T-0843,Feature,3,High,Team B,In Progress,1,3,2024-01-07,2024-01-12,5.17
+T-0844,Spike,5,Critical,Team B,Backlog,3,5,2024-05-24,2024-05-30,6.45
+T-0845,Feature,8,Medium,Team A,Backlog,3,2,2024-04-23,2024-04-30,7.18
+T-0846,Bug,2,Medium,Team B,In Progress,2,4,2024-01-26,2024-02-02,7.08
+T-0847,Feature,1,High,Team C,Testing,1,4,2024-01-15,2024-01-18,3.08
+T-0848,Spike,2,Medium,Team B,Backlog,1,1,2024-02-02,2024-02-08,6.35
+T-0849,Bug,8,Medium,Team B,In Review,1,5,2024-03-02,2024-03-07,5.05
+T-0850,Bug,5,Medium,Team A,Backlog,2,5,2024-02-16,2024-02-23,6.69
+T-0851,Feature,2,Medium,Team B,Testing,1,0,2024-04-04,2024-04-09,5.13
+T-0852,Task,8,Medium,Team A,In Progress,3,1,2024-02-04,2024-02-12,8.22
+T-0853,Feature,8,Low,Team B,In Review,1,0,2024-03-16,2024-03-23,6.62
+T-0854,Task,8,High,Team C,In Progress,0,0,2024-05-02,2024-05-07,4.94
+T-0855,Feature,8,Low,Team B,In Progress,3,4,2024-03-23,2024-04-09,17.48
+T-0856,Feature,2,Medium,Team A,Backlog,2,5,2024-01-25,2024-01-31,5.64
+T-0857,Feature,5,Medium,Team A,Backlog,1,0,2024-02-26,2024-03-03,5.92
+T-0858,Bug,3,Low,Team B,Testing,0,2,2024-02-01,2024-02-07,6.41
+T-0859,Bug,8,Low,Team B,Testing,2,2,2024-03-03,2024-03-12,9.09
+T-0860,Feature,5,Low,Team C,In Review,2,5,2024-01-12,2024-01-18,5.5
+T-0861,Task,5,High,Team C,In Progress,3,2,2024-03-03,2024-03-08,4.96
+T-0862,Bug,5,Medium,Team B,In Review,2,4,2024-03-17,2024-03-21,4.48
+T-0863,Bug,2,Critical,Team A,Backlog,2,1,2024-04-01,2024-04-03,1.78
+T-0864,Bug,3,Medium,Team A,In Progress,2,3,2024-01-01,2024-01-06,4.73
+T-0865,Bug,13,Medium,Team A,In Progress,2,0,2024-06-27,2024-07-05,8.04
+T-0866,Bug,8,Medium,Team A,In Progress,1,3,2024-03-10,2024-03-20,9.53
+T-0867,Feature,1,Medium,Team B,In Progress,1,1,2024-05-15,2024-05-21,5.73
+T-0868,Feature,2,High,Team B,Backlog,1,1,2024-05-12,2024-05-17,4.96
+T-0869,Task,1,Medium,Team B,In Progress,1,4,2024-03-26,2024-04-02,6.52
+T-0870,Spike,5,Medium,Team A,In Review,0,2,2024-02-08,2024-02-13,5.1
+T-0871,Feature,8,High,Team A,In Progress,1,2,2024-01-23,2024-02-01,8.52
+T-0872,Feature,2,High,Team A,Backlog,2,1,2024-03-08,2024-03-11,3.07
+T-0873,Bug,3,High,Team A,Backlog,1,4,2024-06-28,2024-06-30,2.18
+T-0874,Bug,8,Medium,Team C,Backlog,1,4,2024-01-04,2024-01-09,4.68
+T-0875,Feature,5,High,Team A,In Progress,3,5,2024-05-05,2024-05-13,7.55
+T-0876,Feature,3,Medium,Team B,In Progress,2,0,2024-06-23,2024-07-02,8.75
+T-0877,Task,3,Medium,Team A,In Progress,1,2,2024-01-21,2024-01-27,5.9
+T-0878,Bug,3,Medium,Team C,In Progress,1,1,2024-04-14,2024-04-19,5.11
+T-0879,Feature,2,Medium,Team B,In Progress,1,5,2024-03-06,2024-03-16,9.65
+T-0880,Feature,3,Low,Team A,In Review,0,3,2024-01-07,2024-01-12,4.59
+T-0881,Feature,5,Medium,Team B,Backlog,1,2,2024-02-18,2024-02-25,6.87
+T-0882,Bug,8,High,Team B,In Progress,3,0,2024-01-16,2024-01-23,7.35
+T-0883,Feature,5,Medium,Team C,In Review,2,4,2024-05-24,2024-05-29,4.65
+T-0884,Feature,5,Low,Team A,Backlog,2,1,2024-03-24,2024-03-31,7.49
+T-0885,Task,2,Low,Team C,Backlog,1,2,2024-03-27,2024-04-01,4.74
+T-0886,Feature,3,High,Team C,In Review,1,3,2024-04-07,2024-04-10,2.82
+T-0887,Bug,1,Medium,Team C,In Progress,1,0,2024-03-15,2024-03-20,4.83
+T-0888,Feature,2,Medium,Team B,In Progress,2,0,2024-02-03,2024-02-11,8.1
+T-0889,Feature,5,High,Team B,Backlog,2,5,2024-06-09,2024-06-16,7.0
+T-0890,Feature,13,High,Team B,In Progress,0,2,2024-01-26,2024-02-06,11.22
+T-0891,Task,1,Medium,Team C,In Progress,3,3,2024-03-06,2024-03-12,6.03
+T-0892,Task,3,Medium,Team B,Backlog,0,0,2024-05-04,2024-05-08,4.42
+T-0893,Task,8,High,Team B,In Progress,3,1,2024-03-03,2024-03-12,8.56
+T-0894,Feature,2,Medium,Team B,Backlog,0,0,2024-03-27,2024-04-02,5.51
+T-0895,Bug,3,Low,Team B,In Progress,2,3,2024-02-10,2024-02-19,8.6
+T-0896,Feature,5,High,Team C,Backlog,0,4,2024-04-07,2024-04-11,3.65
+T-0897,Feature,5,Medium,Team A,Backlog,3,4,2024-05-03,2024-05-10,6.86
+T-0898,Task,2,Medium,Team C,In Progress,1,5,2024-03-19,2024-03-26,6.63
+T-0899,Feature,3,Medium,Team B,Backlog,3,2,2024-01-10,2024-01-17,7.16
+T-0900,Feature,5,Low,Team C,Testing,1,3,2024-01-15,2024-01-22,6.98
+T-0901,Feature,3,Low,Team B,Backlog,2,5,2024-02-11,2024-02-19,7.53
+T-0902,Feature,1,High,Team A,In Progress,3,0,2024-04-02,2024-04-06,4.05
+T-0903,Feature,5,Low,Team C,Backlog,0,0,2024-01-17,2024-01-23,5.96
+T-0904,Bug,1,Medium,Team A,In Progress,3,4,2024-01-09,2024-01-14,4.9
+T-0905,Bug,5,Medium,Team C,Testing,1,5,2024-04-23,2024-04-28,4.85
+T-0906,Task,2,Low,Team B,Backlog,2,4,2024-02-05,2024-02-13,8.27
+T-0907,Task,13,Critical,Team B,Testing,0,1,2024-02-05,2024-02-10,5.16
+T-0908,Feature,3,Medium,Team A,Backlog,3,4,2024-02-17,2024-02-24,6.59
+T-0909,Feature,2,Medium,Team B,In Review,1,1,2024-02-20,2024-02-23,3.13
+T-0910,Feature,1,Medium,Team A,In Progress,0,0,2024-04-06,2024-04-10,4.24
+T-0911,Bug,2,Medium,Team A,In Review,2,5,2024-04-28,2024-05-01,2.92
+T-0912,Feature,8,Low,Team A,In Progress,0,1,2024-04-04,2024-04-15,11.42
+T-0913,Bug,13,High,Team A,In Progress,2,5,2024-03-10,2024-03-19,8.64
+T-0914,Bug,3,Critical,Team C,Backlog,0,5,2024-03-14,2024-03-18,4.02
+T-0915,Bug,3,Medium,Team C,Backlog,3,1,2024-03-20,2024-03-25,4.56
+T-0916,Bug,5,Medium,Team A,Testing,1,2,2024-03-08,2024-03-12,4.42
+T-0917,Feature,8,High,Team B,In Progress,3,4,2024-05-29,2024-06-09,11.38
+T-0918,Spike,3,High,Team A,In Progress,3,1,2024-03-17,2024-03-24,7.12
+T-0919,Task,3,Medium,Team B,In Review,2,0,2024-04-25,2024-04-28,3.02
+T-0920,Feature,3,Medium,Team C,In Progress,2,5,2024-01-06,2024-01-14,7.9
+T-0921,Task,5,Medium,Team C,Testing,2,3,2024-06-02,2024-06-09,6.88
+T-0922,Bug,1,High,Team B,In Review,3,1,2024-03-15,2024-03-19,3.94
+T-0923,Task,5,High,Team C,In Progress,0,4,2024-03-28,2024-04-03,5.86
+T-0924,Task,3,Low,Team A,In Review,0,5,2024-01-03,2024-01-07,3.64
+T-0925,Bug,5,Medium,Team C,Backlog,3,2,2024-02-21,2024-02-26,4.67
+T-0926,Feature,1,High,Team A,In Progress,3,0,2024-03-14,2024-03-19,5.28
+T-0927,Feature,3,High,Team B,In Progress,1,2,2024-05-04,2024-05-09,5.47
+T-0928,Bug,3,Critical,Team B,Backlog,2,3,2024-03-05,2024-03-08,3.06
+T-0929,Bug,5,High,Team B,In Review,2,1,2024-02-21,2024-02-24,3.16
+T-0930,Feature,1,Medium,Team A,Testing,3,5,2024-03-16,2024-03-21,4.9
+T-0931,Feature,3,Medium,Team C,In Progress,3,1,2024-05-21,2024-05-29,7.56
+T-0932,Task,3,Medium,Team A,In Progress,0,4,2024-03-29,2024-04-05,7.21
+T-0933,Spike,3,Low,Team B,Testing,3,1,2024-03-12,2024-03-22,10.22
+T-0934,Bug,5,Medium,Team A,In Progress,0,0,2024-03-08,2024-03-14,6.03
+T-0935,Feature,5,High,Team A,In Progress,3,3,2024-06-04,2024-06-11,6.58
+T-0936,Feature,8,Low,Team B,In Progress,1,2,2024-05-17,2024-06-01,14.6
+T-0937,Feature,2,High,Team B,Testing,1,3,2024-04-24,2024-04-29,5.42
+T-0938,Spike,8,Medium,Team A,In Progress,0,5,2024-02-26,2024-03-09,12.5
+T-0939,Feature,3,Critical,Team A,In Review,2,1,2024-03-06,2024-03-07,1.4
+T-0940,Bug,1,Low,Team B,In Review,1,5,2024-03-30,2024-04-02,3.48
+T-0941,Feature,1,Medium,Team C,In Progress,0,2,2024-02-19,2024-02-23,4.33
+T-0942,Bug,2,Medium,Team C,In Progress,3,5,2024-01-14,2024-01-22,7.66
+T-0943,Bug,5,Medium,Team A,In Review,3,4,2024-01-16,2024-01-20,4.47
+T-0944,Task,5,High,Team A,In Progress,0,3,2024-06-19,2024-06-24,5.15
+T-0945,Feature,5,High,Team A,In Review,2,2,2024-02-11,2024-02-14,3.41
+T-0946,Feature,3,Low,Team A,Testing,0,2,2024-04-19,2024-04-25,6.26
+T-0947,Feature,3,Medium,Team B,In Progress,0,2,2024-01-22,2024-01-29,6.72
+T-0948,Spike,1,Medium,Team B,In Review,1,0,2024-03-08,2024-03-11,3.22
+T-0949,Task,2,Medium,Team A,In Review,0,3,2024-01-19,2024-01-22,3.06
+T-0950,Bug,3,High,Team A,In Review,0,5,2024-03-06,2024-03-10,4.07
+T-0951,Bug,1,High,Team A,In Progress,3,2,2024-06-15,2024-06-19,3.63
+T-0952,Bug,2,Medium,Team C,Backlog,1,3,2024-03-13,2024-03-16,2.54
+T-0953,Feature,3,High,Team C,In Progress,3,2,2024-05-26,2024-05-31,4.86
+T-0954,Spike,5,Medium,Team A,In Progress,3,4,2024-05-23,2024-06-02,9.88
+T-0955,Bug,13,High,Team A,In Progress,2,4,2024-02-23,2024-03-03,8.99
+T-0956,Feature,8,Medium,Team C,In Review,2,4,2024-06-01,2024-06-05,4.46
+T-0957,Bug,5,High,Team C,In Progress,1,1,2024-04-21,2024-04-26,5.27
+T-0958,Feature,3,High,Team B,In Progress,1,2,2024-01-18,2024-01-23,5.41
+T-0959,Feature,5,Medium,Team A,Backlog,2,1,2024-05-30,2024-06-05,5.84
+T-0960,Task,5,High,Team A,In Review,2,3,2024-04-26,2024-05-01,4.79
+T-0961,Feature,1,Low,Team B,In Progress,2,1,2024-03-25,2024-04-03,8.96
+T-0962,Bug,3,Medium,Team A,Backlog,2,3,2024-05-18,2024-05-23,5.03
+T-0963,Feature,8,Medium,Team A,In Progress,2,3,2024-02-08,2024-02-20,12.03
+T-0964,Feature,3,Critical,Team B,In Review,3,3,2024-04-14,2024-04-18,3.74
+T-0965,Feature,3,High,Team A,In Progress,1,5,2024-03-08,2024-03-15,6.94
+T-0966,Feature,3,High,Team C,Backlog,3,1,2024-01-25,2024-01-29,3.76
+T-0967,Task,2,High,Team A,Testing,3,5,2024-06-06,2024-06-10,4.45
+T-0968,Feature,3,Medium,Team A,In Review,0,2,2024-06-21,2024-06-24,3.2
+T-0969,Bug,2,High,Team B,Testing,3,1,2024-05-02,2024-05-05,3.35
+T-0970,Bug,1,Medium,Team A,In Progress,2,2,2024-04-30,2024-05-05,5.14
+T-0971,Bug,1,Medium,Team C,In Progress,2,2,2024-03-01,2024-03-06,5.0
+T-0972,Spike,8,Low,Team B,In Review,0,3,2024-04-09,2024-04-16,6.82
+T-0973,Task,2,High,Team A,In Progress,0,1,2024-02-20,2024-02-25,5.41
+T-0974,Feature,3,High,Team B,In Review,0,2,2024-04-07,2024-04-10,3.33
+T-0975,Feature,2,Medium,Team A,In Progress,0,4,2024-05-16,2024-05-23,6.55
+T-0976,Feature,8,Low,Team C,In Progress,0,2,2024-01-02,2024-01-13,11.33
+T-0977,Bug,2,High,Team A,Backlog,3,4,2024-01-05,2024-01-10,4.56
+T-0978,Feature,3,Low,Team B,Backlog,0,1,2024-06-28,2024-07-04,5.69
+T-0979,Bug,8,High,Team A,Backlog,3,5,2024-03-26,2024-04-01,5.95
+T-0980,Bug,8,Critical,Team B,Backlog,1,1,2024-05-12,2024-05-15,2.82
+T-0981,Feature,2,Medium,Team C,Testing,0,5,2024-03-08,2024-03-15,7.2
+T-0982,Task,8,Medium,Team C,Backlog,0,5,2024-01-09,2024-01-16,7.04
+T-0983,Feature,3,High,Team A,In Progress,3,1,2024-04-02,2024-04-07,4.69
+T-0984,Feature,3,High,Team A,In Review,1,2,2024-05-29,2024-06-04,5.62
+T-0985,Task,1,Medium,Team C,In Progress,3,0,2024-06-03,2024-06-07,4.38
+T-0986,Bug,1,Critical,Team C,Backlog,3,2,2024-05-17,2024-05-19,2.05
+T-0987,Bug,5,Low,Team A,In Review,0,2,2024-05-04,2024-05-08,3.89
+T-0988,Bug,3,Medium,Team B,In Progress,2,3,2024-03-01,2024-03-07,6.49
+T-0989,Feature,3,High,Team A,In Review,2,3,2024-02-20,2024-02-23,3.24
+T-0990,Task,5,High,Team C,In Review,3,2,2024-01-10,2024-01-11,1.22
+T-0991,Task,5,Low,Team A,Testing,0,4,2024-05-13,2024-05-21,8.36
+T-0992,Bug,2,High,Team A,In Progress,1,5,2024-03-02,2024-03-06,4.0
+T-0993,Feature,5,Medium,Team C,In Progress,2,3,2024-04-22,2024-04-30,8.01
+T-0994,Bug,1,Medium,Team A,In Progress,1,2,2024-05-12,2024-05-17,5.34
+T-0995,Feature,5,Low,Team B,Backlog,2,0,2024-05-01,2024-05-09,7.98
+T-0996,Feature,5,High,Team B,In Review,0,4,2024-05-02,2024-05-06,3.76
+T-0997,Spike,13,Low,Team A,Backlog,3,1,2024-03-03,2024-03-15,12.44
+T-0998,Feature,1,Medium,Team A,In Progress,1,2,2024-04-20,2024-04-27,7.47
+T-0999,Spike,1,Medium,Team B,In Review,1,2,2024-03-29,2024-04-02,4.06
+T-1000,Bug,2,High,Team A,In Progress,3,5,2024-02-20,2024-02-24,4.5
